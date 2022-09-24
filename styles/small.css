@@ -1,7 +1,8 @@
 body {
   margin: 20px auto;
-  max-width: 750px;
+  max-width: 780px;
   background-color: #fce2db;
+  overflow: visible;
 }
 
 h1,

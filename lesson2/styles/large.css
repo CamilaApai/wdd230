@@ -1,0 +1,28 @@
+@media only screen and (min-width:60em) {
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: none;  
+    }
+  
+    section.topic1{
+        grid-column: 1;
+        grid-row: none;
+    }
+
+    section.topic2{
+        grid-column: 2; 
+        grid-row: none;
+    }
+
+    section.topic3{
+        grid-column: 3;
+        grid-row: none;    
+    }
+
+    img.image3 {
+        width: 100%;
+        height: auto;  
+    }
+}
