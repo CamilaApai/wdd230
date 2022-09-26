@@ -54,6 +54,13 @@ hr {
   background-color: black;
 }
 
+hr + p{
+  font-style: italic;
+  font-size: 15px;
+  line-height: 0px;
+  padding-bottom: 20px;
+}
+
 li,
 footer {
   font-family: "Inter", Helvetica, sans-serif;
