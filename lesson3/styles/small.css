@@ -1,0 +1,61 @@
+body {
+    margin: 20px auto;
+    max-width: 100%;
+    background-color: #fce2db;
+    overflow: visible;
+  }
+  
+  h1,
+  h2 {
+    font-family: "Arvo", Georgia, serif;
+    color: black;
+  }
+  
+  h1,
+  footer {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  header,
+  footer {
+    background-color: #f29393;
+    box-shadow: 10px 5px 10px #d14f9b77;
+  }
+  
+  img {
+    margin: 20px;
+    width: 180px;
+    height: auto;
+  }
+  
+ 
+  p {
+    font-size: 15px;
+    line-height: 0px;
+    padding-bottom: 20px;
+  }
+
+  table,
+    th,
+    td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+  
+  li,
+  footer {
+    font-family: "Inter", Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 5px;
+  }
+  
