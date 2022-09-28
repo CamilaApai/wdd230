@@ -1,61 +1,133 @@
 body {
-    margin: 20px auto;
-    max-width: 100%;
-    background-color: #fce2db;
-    overflow: visible;
-  }
-  
-  h1,
-  h2 {
-    font-family: "Arvo", Georgia, serif;
-    color: black;
-  }
-  
-  h1,
-  footer {
-    text-align: center;
-  }
-  
-  h1 {
-    font-size: 35px;
-    text-align: center;
-  }
-  
-  h2 {
-    font-size: 20px;
-  }
-  
-  header,
-  footer {
-    background-color: #f29393;
-    box-shadow: 10px 5px 10px #d14f9b77;
-  }
-  
-  img {
-    margin: 20px;
-    width: 180px;
-    height: auto;
-  }
-  
- 
-  p {
-    font-size: 15px;
-    line-height: 0px;
-    padding-bottom: 20px;
-  }
-
-  table,
-    th,
-    td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 10px;
+  margin: 20px auto;
+  max-width: 100%;
+  background-color: white;
+  overflow: visible;
 }
-  
-  li,
-  footer {
-    font-family: "Inter", Helvetica, sans-serif;
-    font-size: 15px;
-    padding: 5px;
-  }
-  
+
+h1,
+h2 {
+  font-family: "Ubuntu", Helvetica, sans-serif;
+}
+
+h1,
+footer {
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 35px;
+  text-align: center;
+  padding: 0px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+header,
+footer {
+  background-color: #184271;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  background-color: #ee6a31;
+  flex: 1 1 auto;
+  width: 100%;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+
+nav a:hover {
+  display: block;
+  background-color: #f5a22f;
+}
+
+img {
+ 
+  width: 350px;
+  height: auto;
+}
+
+p {
+  line-height: 0px;
+  padding-bottom: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  margin: 20px;
+}
+
+.primary {
+  background-color: #184271;
+}
+
+.secondary {
+  background-color: #ffffff;
+}
+
+.accent1 {
+  background-color: #ee6a31;
+}
+.accent2 {
+  background-color: #f5a22f;
+}
+
+.sample1 {
+  background-color: #184271;
+  color: #ffffff;
+}
+.sample2 {
+  background-color: #ee6a31;
+  color: #ffffff;
+}
+.sample3 {
+  background-color: #ffffff;
+  color: #000;
+}
+.sample4 {
+  background-color: #ffffff;
+  color: #000;
+}
+.sample5 {
+  background-color: #184271;
+  color: #ffffff;
+}
+
+p,
+li,
+table,
+nav,
+footer {
+  font-family: "Abyssinica SIL", Georgia, serif;
+  padding: 5px;
+}
+
+p,
+li,
+table,
+nav,
+footer {
+  font-size: 16px;
+}
+
+footer {
+  color: white;
+}
