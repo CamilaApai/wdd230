@@ -1,123 +1,37 @@
 body {
-  margin: 20px auto;
+  margin: none;
   max-width: 100%;
   background-color: white;
-  overflow: visible;
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: "Ubuntu", Helvetica, sans-serif;
 }
 
-h1,
-footer {
-  text-align: center;
-  color: white;
-}
-
 h1 {
-  font-size: 35px;
-  text-align: center;
-  padding: 0px;
+  font-size: 30px; 
 }
 
 h2 {
+  font-size: 20px;
+}
+
+
+h3 {
   font-size: 18px;
 }
 
 header,
 footer {
+  text-align: center;
+  color: white;
   background-color: #184271;
   display: flex;
   flex-flow: column;
   align-items: center;
   justify-content: center;
-}
-
-nav {
-  display: flex;
-  flex-direction: column;
-  background-color: #ee6a31;
-  flex: 1 1 auto;
-  width: 100%;
-  text-align: center;
-}
-
-nav a {
-  color: white;
-  font-weight: bold;
-  padding: 10px;
-}
-
-nav a:hover {
-  display: block;
-  background-color: #f5a22f;
-}
-
-img {
- 
-  width: 350px;
-  height: auto;
-}
-
-p {
-  line-height: 0px;
-  padding-bottom: 20px;
-}
-
-table,
-th,
-td {
-  border: 1px solid black;
-  border-collapse: collapse;
-  padding: 10px;
-  margin: 20px;
-}
-
-.primary {
-  background-color: #184271;
-}
-
-.secondary {
-  background-color: #ffffff;
-}
-
-.accent1 {
-  background-color: #ee6a31;
-}
-.accent2 {
-  background-color: #f5a22f;
-}
-
-.sample1 {
-  background-color: #184271;
-  color: #ffffff;
-}
-.sample2 {
-  background-color: #ee6a31;
-  color: #ffffff;
-}
-.sample3 {
-  background-color: #ffffff;
-  color: #000;
-}
-.sample4 {
-  background-color: #ffffff;
-  color: #000;
-}
-.sample5 {
-  background-color: #184271;
-  color: #ffffff;
-}
-
-p,
-li,
-table,
-nav,
-footer {
-  font-family: "Abyssinica SIL", Georgia, serif;
-  padding: 5px;
 }
 
 p,
@@ -126,8 +40,88 @@ table,
 nav,
 footer {
   font-size: 16px;
+  font-family: "Abyssinica SIL", Georgia, serif;
 }
 
-footer {
-  color: white;
+footer p {
+  padding-bottom: 0px;
 }
+
+table,
+th,
+td {
+  
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  margin: 20px;
+  
+}
+
+
+
+nav {
+  display: flex;
+  flex-direction: column;
+  background-color: #F8733A;
+  flex: 1 1 auto;
+  width: 100%;
+  text-align: center;
+}
+
+nav a {
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  text-decoration: none;
+}
+
+
+
+
+nav a:hover {
+  display: block;
+  background-color: #fe8f28; 
+}
+
+img {
+  width: 350px;
+  height: auto;
+}
+
+
+.primary {
+  background-color: #184271;
+}
+
+.secondary {
+  background-color: #F8733A;
+}
+
+.accent1 {
+  background-color: #fe8f28;
+}
+.accent2 {
+  background-color: #FFFFFF;
+}
+
+.sample1,
+.sample7 
+ {
+  color: #ffffff;
+  background-color: #184271;
+}
+.sample2 {
+  background-color: #F8733A;
+  color: #000;
+}
+
+.sample3,
+.sample4,
+.sample5,
+.sample6
+ {
+  background-color: #ffffff;
+  color: #000;
+}
+
