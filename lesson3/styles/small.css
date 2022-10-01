@@ -1,5 +1,5 @@
 body {
-  margin: none;
+  margin: 0px;
   max-width: 100%;
   background-color: white;
 }
@@ -43,7 +43,6 @@ footer {
 }
 
 footer p {
-  padding-bottom: 0px;
   margin: 10px;
 }
 
