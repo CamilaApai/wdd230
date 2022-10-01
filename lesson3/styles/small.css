@@ -11,13 +11,12 @@ h3 {
 }
 
 h1 {
-  font-size: 30px; 
+  font-size: 30px;
 }
 
 h2 {
   font-size: 20px;
 }
-
 
 h3 {
   font-size: 18px;
@@ -45,25 +44,28 @@ footer {
 
 footer p {
   padding-bottom: 0px;
+  margin: 10px;
+}
+
+main {
+  padding: 10px;
 }
 
 table,
 th,
 td {
-  
   border: 1px solid black;
   border-collapse: collapse;
   padding: 10px;
   margin: 20px;
-  
 }
-
-
-
+table {
+  width: 90%;
+}
 nav {
   display: flex;
   flex-direction: column;
-  background-color: #F8733A;
+  background-color: #f8733a;
   flex: 1 1 auto;
   width: 100%;
   text-align: center;
@@ -76,12 +78,9 @@ nav a {
   text-decoration: none;
 }
 
-
-
-
 nav a:hover {
   display: block;
-  background-color: #fe8f28; 
+  background-color: #fe8f28;
 }
 
 img {
@@ -89,39 +88,35 @@ img {
   height: auto;
 }
 
-
 .primary {
   background-color: #184271;
 }
 
 .secondary {
-  background-color: #F8733A;
+  background-color: #f8733a;
 }
 
 .accent1 {
   background-color: #fe8f28;
 }
 .accent2 {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .sample1,
-.sample7 
- {
+.sample7 {
   color: #ffffff;
   background-color: #184271;
 }
 .sample2 {
-  background-color: #F8733A;
+  background-color: #f8733a;
   color: #000;
 }
 
 .sample3,
 .sample4,
 .sample5,
-.sample6
- {
+.sample6 {
   background-color: #ffffff;
   color: #000;
 }
-

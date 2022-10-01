@@ -1,5 +1,4 @@
 @media only screen and (min-width: 32.5em) {
-  
   h1 {
     font-size: 40px;
   }
@@ -10,12 +9,12 @@
   h3 {
     font-size: 20px;
   }
-  
-  nav{
+
+  nav {
     flex-direction: row;
     justify-content: center;
   }
-  
+
   p,
   li,
   table,
@@ -23,6 +22,4 @@
   footer {
     font-size: 16px;
   }
-  }
-
-     
+}
