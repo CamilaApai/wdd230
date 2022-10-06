@@ -83,6 +83,11 @@ nav a:hover {
   background-color: #fe8f28;
 }
 
+h2 + img {
+  width: 350px;
+  height: auto;
+}
+
 img {
   width: 350px;
   height: auto;
