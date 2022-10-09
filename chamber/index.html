@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Montevideo Chamber|Home Pague</title>
+  <title>Montevideo Chamber | Home Pague</title>
   <meta name="author" content="Camila Apai">
   <meta name="description" content="Week 4, Camila Apai Chamber Home Pague Build">
   <link rel="preconnect" href="https://fonts.googleapis.com" >
@@ -13,7 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Ubuntu&display=swap" rel="stylesheet" >
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles/normalize.css">
-  <link rel="stylesheet" href="styles/small.css" >
+  <link rel="stylesheet" href="styles/base.css" >
   <link rel="stylesheet" href="styles/medium.css" >
   <link rel="stylesheet" href="styles/large.css" >
 
@@ -22,11 +22,13 @@
 <body>
   <header>
     <div class="headerfirst">
-      <h1>Montevideo Chamber of Commerce</h1>
-      <p>Loren ipsum!</p>
       <div class="logo">
-          <img src="images/logo.jpg" alt="Website Logo">
+        <img src="images/cover.png" alt="Website Logo">
       </div>
+      <section class="heading">
+        <h1>Montevideo</h1>
+        <h1 id="headingsmaller">Chamber of Commerce</h1>
+      </section>
       <div class="social">
           <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
           <a href="https://www.linkedin.com" class="fa fa-linkedin"></a>
@@ -49,25 +51,32 @@
     <section class="weather">Weather</section>
     <section class="join">Join</section>
     <section class="news">News Release</section>
-    <section class="spothlight1">Spothlight 1</section>
-    <section class="spothlight2">Spothlight 2</section>
-    <section class="spothlight3">Spothlight 3</section>
+    <section class="spothlights">
+      <section class="spothlight1">Spothlight 1</section>
+      <section class="spothlight2">Spothlight 2</section>
+      <section class="spothlight3">Spothlight 3</section>
+    </section>
 
 </main>
   <footer>
-    <div class="logo">
-        <img src="images/logo.jpg" alt="Website Logo">
+    <div class="logofooter">
+        <img src="/chamber/images/cover.png" alt="Website Logo">
     </div>
-    <p>Lorem ipsum dolor sit amet</p>
-    <p>Lorem ipsum dolor sit amet</p>
-    <p>Lorem ipsum dolor sit amet</p>
-    <p>info@montevideochamber.com</p>
-    <p>+(233) 2098-8750</p>
-    <p>📍Location Map</p>
+    <div class="locationinfo">
+      <h1>Montevideo Chamber of Commerce</h1>
+      <p>25 de Mayo 575</p>
+      <p>Montevideo, Uruguay</p>
+    </div>
+    <div class="info">
+      <p>info@montevideochamber.com</p>
+      <p>+(233) 2098-8750</p>
+      <a href="https://www.google.com/maps/place/25+de+Mayo+575,+11000+Montevideo,+Departamento+de+Montevideo/@-34.9053527,-56.2054329,19z/data=!3m1!4b1!4m13!1m7!3m6!1s0x959f7f81386face9:0x1f573a9cbda191d9!2sCiudad+Vieja,+11000+Montevideo,+Montevideo+Department!3b1!8m2!3d-34.9080259!4d-56.2063312!3m4!1s0x959f7f80b1c6e6d1:0x746b4d9b3a5030d3!8m2!3d-34.9053538!4d-56.2043117">📍Location Map</a>
+    </div>
     <hr>
-    <p>&copy;<span id="currentyear"></span> | Camila Apai | WDD 230 Project | Last Modification: <span id="lastModified"></span></p>
+    <p>&copy;<span id="currentyear"></span> Montevideo Chamber | Camila Apai | WDD 230 Project | Last Modification: <span id="lastModified"></span></p>
 </footer>
-  <script src="scripts/fourth-page-javascript.js"></script>
+  <script src="scripts/dates.js"></script>
+  <script src="scripts/nav-button.js"></script>
 </body>
 
 </html>
