@@ -11,11 +11,11 @@ header {
   justify-content: center;
 }
 
-.headerfirst{
+.headerfirst {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .heading {
@@ -30,16 +30,16 @@ h1 {
   margin: 0px;
 }
 
-#headingsmaller{
+#headingsmaller {
   font-size: 15px;
 }
 
 .logo {
   align-items: center;
-	/*margin-left: 0.5rem;*/
+  /*margin-left: 0.5rem;*/
 }
 
-.date{
+.date {
   background-color: #f8733a;
   width: 100%;
   margin: 10px;
@@ -70,13 +70,13 @@ footer a {
   margin: 10px;
 }
 
-footer a{
+footer a {
   text-decoration: none;
   color: white;
 }
 
-footer a:hover{
-  text-decoration:underline;
+footer a:hover {
+  text-decoration: underline;
 }
 
 main {
@@ -85,7 +85,7 @@ main {
   display: grid;
 }
 
-main section{
+main section {
   text-align: start;
   padding: 10px 100px 100px 10px;
   border: 1px solid black;
@@ -93,22 +93,22 @@ main section{
   background-color: skyblue;
 }
 
-section.spothlights{
+section.spothlights {
   padding: 0px;
 }
 
 section.join,
-section.spothlight3{
+section.spothlight3 {
   display: none;
 }
 
 section.spothlight1,
-section.spothlight2{
+section.spothlight2 {
   grid-area: auto;
 }
 
-nav button{
-  margin: .2rem 2vw;
+nav button {
+  margin: 0.2rem 2vw;
   background: transparent;
   font-size: 2rem;
   color: white;
@@ -127,25 +127,23 @@ nav ul li {
   padding: 10px;
 }
 
-
 nav ul li a {
   display: block;
   color: black;
   font-weight: bold;
   text-decoration: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
 }
 
 nav ul li a:hover {
   background-color: #fe8f28;
- /*background-color: rgba(0, 0, 0, 0.3);*/
+  /*background-color: rgba(0, 0, 0, 0.3);*/
 }
 
 nav ul.open {
   display: block;
 }
-
 
 #hamburgerBtn span:nth-child(1) {
   display: block;
@@ -170,23 +168,23 @@ img {
 
 hr {
   border: 0px;
-  width: 95%;               
+  width: 95%;
   background-color: rgba(0, 0, 40, 0.3);
   height: 1px;
 }
 
 .fa {
-    padding: 5px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-    margin: 5px;
-  }
+  padding: 5px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 5px;
+}
 
 .fa:hover {
-    opacity: 0.8;
+  opacity: 0.8;
   /*background-color: #fe8f28;*/
 }
 
@@ -201,7 +199,7 @@ hr {
 }
 
 h1 + p,
-h1 +p +p {
+h1 + p + p {
   margin: 0px;
   font-style: italic;
 }
