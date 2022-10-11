@@ -1,44 +1,51 @@
 @media only screen and (min-width: 60em) {
-  h1 {
-    font-size: 30px;
-    margin: 0px;
-  }
-
-  p,
-  nav,
-  footer {
-    font-size: 16px;
-    font-family: "Abyssinica SIL", Georgia, serif;
-  }
-  div + h1 {
-    font-size: 35px;
-  }
-
-  main {
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: repeat(3, 9em);
-  }
-
+  
+   /*|| HEADER Grid||*/
   .headerfirst {
     display: grid;
     grid-template-columns: 1fr 1fr 2fr 1fr;
     width: 100%;
   }
 
+  .logo {
+    margin-top: 10px;
+  }
+  
   .heading {
     grid-column: 2/3;
   }
 
-  .logo {
-    margin-top: 10px;
+  h1 {
+    font-size: 30px;
+  }
+
+ /* Social Icons */
+  .social {
+    grid-column: 4/5;
+    grid-row: 1;
+  }
+
+  /* Navigation Bar */
+  nav button {
+    display: none;
   }
 
   #navigation {
     grid-column: 3/4;
   }
-  .social {
-    grid-column: 4/5;
-    grid-row: 1;
+
+  nav ul#navigation {
+    display: flex;
+  }
+
+  nav ul li a {
+    border-bottom: none;
+  }
+
+  /*|| MAIN Grid ||*/
+  main {
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: repeat(3, 9em);
   }
 
   section.event {
@@ -72,6 +79,7 @@
     grid-column: 3/4;
     grid-row: 1/4;
   }
+
   section.spothlight1,
   section.spothlight2,
   section.spothlight3 {
@@ -83,15 +91,12 @@
     display: inline;
   }
 
-  nav button {
-    display: none;
-  }
+  /*|| FOOTER ||*/
 
-  nav ul#navigation {
-    display: flex;
-  }
-
-  nav ul li a {
-    border-bottom: none;
+  .locationinfo h1 {
+    font-size: 35px;
   }
 }
+
+
+

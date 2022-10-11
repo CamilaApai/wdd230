@@ -1,50 +1,8 @@
+/* General CSS */
 body {
   margin: 0px;
   max-width: 100%;
   background-color: white;
-}
-
-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.headerfirst {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
-.heading {
-  display: flex;
-  flex-direction: column;
-  font-family: "Ubuntu", Helvetica, sans-serif;
-  padding: 5px;
-}
-
-h1 {
-  font-size: 20px;
-  margin: 0px;
-}
-
-#headingsmaller {
-  font-size: 15px;
-}
-
-.logo {
-  align-items: center;
-  /*margin-left: 0.5rem;*/
-}
-
-.date {
-  background-color: #f8733a;
-  width: 100%;
-  margin: 10px;
-  grid-column: 1/4;
-  grid-row: 2;
 }
 
 header,
@@ -65,48 +23,75 @@ footer {
   font-family: "Abyssinica SIL", Georgia, serif;
 }
 
-footer p,
-footer a {
-  margin: 10px;
+img {
+  width: auto;
+  height: 35px;
+  /*border: dotted red;*/
 }
 
-footer a {
+/*|| HEADER ||*/
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerfirst {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  align-items: center;
+  /*margin-left: 0.5rem;*/
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  font-family: "Ubuntu", Helvetica, sans-serif;
+  padding: 5px;
+}
+
+h1 {
+  font-size: 22px;
+  margin: 0px;
+}
+
+.subheading {
+  font-size: 15px;
+}
+
+/* Social Icons */
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
   text-decoration: none;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.fa:hover {
+  opacity: 0.8;
+  /*background-color: #fe8f28;*/
+}
+
+.fa-facebook {
+  background: #3b5998;
   color: white;
 }
 
-footer a:hover {
-  text-decoration: underline;
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
 }
 
-main {
-  padding: 10px;
-  margin: 10px;
-  display: grid;
-}
-
-main section {
-  text-align: start;
-  padding: 10px 100px 100px 10px;
-  border: 1px solid black;
-  margin: 5px;
-  background-color: skyblue;
-}
-
-section.spothlights {
-  padding: 0px;
-}
-
-section.join,
-section.spothlight3 {
-  display: none;
-}
-
-section.spothlight1,
-section.spothlight2 {
-  grid-area: auto;
-}
-
+/* Navigation Bar */
 nav button {
   margin: 0.2rem 2vw;
   background: transparent;
@@ -160,10 +145,71 @@ nav ul.open {
 #hamburgerBtn.open span:nth-child(2) {
   display: block;
 }
-img {
-  width: auto;
-  height: 35px;
-  /*border: dotted red;*/
+
+/* Date */
+.date {
+  background-color: #f8733a;
+  width: 100%;
+  margin: 10px;
+  grid-column: 1/4;
+  grid-row: 2;
+}
+
+/* || MAIN ||*/
+main {
+  padding: 10px;
+  margin: 10px;
+  display: grid;
+}
+
+main section {
+  text-align: start;
+  padding: 10px 100px 100px 10px;
+  border: 1px solid black;
+  margin: 5px;
+  background-color: skyblue;
+}
+
+section.spothlights {
+  padding: 0px;
+}
+
+section.join,
+section.spothlight3 {
+  display: none;
+}
+
+section.spothlight1,
+section.spothlight2 {
+  grid-area: auto;
+}
+
+/*|| FOOTER ||*/
+footer p,
+footer a {
+  margin: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.locationinfo h1 {
+  font-size: 20px;
+}
+
+.locationinfo p {
+  margin: 0px;
+  font-style: italic;
+}
+
+.contactinfo {
+  margin: 10px;
 }
 
 hr {
@@ -171,39 +217,4 @@ hr {
   width: 95%;
   background-color: rgba(0, 0, 40, 0.3);
   height: 1px;
-}
-
-.fa {
-  padding: 5px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-  margin: 5px;
-}
-
-.fa:hover {
-  opacity: 0.8;
-  /*background-color: #fe8f28;*/
-}
-
-.fa-facebook {
-  background: #3b5998;
-  color: white;
-}
-
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
-
-h1 + p,
-h1 + p + p {
-  margin: 0px;
-  font-style: italic;
-}
-
-div + h1 {
-  font-size: 22px;
 }

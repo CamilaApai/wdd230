@@ -1,16 +1,11 @@
 @media only screen and (min-width: 32.5em) {
+  
+  /*|| HEADER ||*/
   h1 {
     font-size: 25px;
-    margin: 0px;
   }
 
-  p,
-  nav,
-  footer {
-    font-size: 16px;
-    font-family: "Abyssinica SIL", Georgia, serif;
-  }
-
+  /*|| MAIN Grid ||*/
   main {
     grid-template-columns: 2fr 1fr;
     grid-template-rows: repeat(5, 0fr);
@@ -54,13 +49,10 @@
     grid-row: 5;
   }
 
+  /*|| FOOTER Grid ||*/
   footer {
     display: grid;
     grid-template-columns: 0.1fr 1fr 1fr;
-  }
-
-  div + h1 {
-    font-size: 28px;
   }
 
   .logofooter {
@@ -72,8 +64,13 @@
     text-align: left;
     padding-left: 10px;
   }
-  .info {
+
+  .locationinfo h1 {
+    font-size: 22px;
+  }
+  .contactinfo {
     grid-column: 3;
+    text-align: right;
   }
 
   hr + p,
