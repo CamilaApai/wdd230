@@ -27,7 +27,6 @@ footer {
 img {
   width: 50px;
   height: auto;
-  /*border: dotted red;*/
 }
 
 /*|| HEADER ||*/
@@ -128,8 +127,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: #fe8f28;
-  /*background-color: rgba(0, 0, 0, 0.3); */
+  background-color: rgba(0, 0, 0, 0); 
 }
 
 nav ul.open {
@@ -161,6 +159,8 @@ nav ul.open {
   grid-column: 1/4;
   grid-row: 2;
   color: black;
+  border: 1px solid white;
+  padding: 5px;
 }
 
 /* || MAIN ||*/
