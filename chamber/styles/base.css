@@ -14,6 +14,7 @@ footer {
   flex-flow: column;
   align-items: center;
   justify-content: center;
+  padding: 10px;
 }
 
 p,
@@ -38,22 +39,23 @@ header {
 }
 
 .headerfirst {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 0.1fr 1fr 1fr 1fr;
+  width: 100%;
   align-items: center;
   justify-content: center;
 }
 
-.logo {
+.headerfirst .logo {
   align-items: center;
-  /*margin-left: 0.5rem;*/
 }
 
 .heading {
   display: flex;
   flex-direction: column;
   font-family: "Ubuntu", Helvetica, sans-serif;
-  padding: 5px;
+  padding-left: 10px;
+  text-align: left;
 }
 
 h1 {
@@ -61,8 +63,9 @@ h1 {
   margin: 0px;
 }
 
-.subheading {
+h2 {
   font-size: 15px;
+  margin: 0px;
 }
 
 /* Social Icons */
@@ -92,6 +95,7 @@ h1 {
 }
 
 /* Navigation Bar */
+
 nav button {
   margin: 0.2rem 2vw;
   background: transparent;
@@ -117,18 +121,21 @@ nav ul li a {
   color: black;
   font-weight: bold;
   text-decoration: none;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  border-radius: 10px;
   padding: 0.5rem 1rem;
+  background-color: #f8733a;
 }
 
 nav ul li a:hover {
   background-color: #fe8f28;
-  /*background-color: rgba(0, 0, 0, 0.3);*/
+  /*background-color: rgba(0, 0, 0, 0.3); */
 }
 
 nav ul.open {
   display: block;
 }
+
 
 #hamburgerBtn span:nth-child(1) {
   display: block;
@@ -201,10 +208,11 @@ footer a:hover {
 
 .locationinfo h1 {
   font-size: 20px;
+  font-family: "Ubuntu", Helvetica, sans-serif;
 }
 
 .locationinfo p {
-  margin: 0px;
+  margin: 5px;
   font-style: italic;
 }
 
@@ -214,7 +222,7 @@ footer a:hover {
 
 hr {
   border: 0px;
-  width: 95%;
+  width: 100%;
   background-color: rgba(0, 0, 40, 0.3);
   height: 1px;
 }

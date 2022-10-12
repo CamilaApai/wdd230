@@ -55,14 +55,13 @@
     grid-template-columns: 0.1fr 1fr 1fr;
   }
 
-  .logofooter {
+  footer .logo {
     grid-column: 1;
   }
 
   .locationinfo {
     grid-column: 2;
     text-align: left;
-    padding-left: 10px;
   }
 
   .locationinfo h1 {
