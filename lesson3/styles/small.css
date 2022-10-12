@@ -65,7 +65,7 @@ table {
 nav {
   display: flex;
   flex-direction: column;
-  background-color: #f8733a;
+  background-color: #3EBBC2;
   flex: 1 1 auto;
   width: 100%;
   text-align: center;
@@ -98,7 +98,7 @@ img {
 }
 
 .secondary {
-  background-color: #f8733a;
+  background-color: #3EBBC2;
 }
 
 .accent1 {
@@ -114,7 +114,7 @@ img {
   background-color: #184271;
 }
 .sample2 {
-  background-color: #f8733a;
+  background-color: #3EBBC2;
   color: #000;
 }
 

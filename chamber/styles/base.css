@@ -25,8 +25,8 @@ footer {
 }
 
 img {
-  width: auto;
-  height: 35px;
+  width: 50px;
+  height: auto;
   /*border: dotted red;*/
 }
 
@@ -124,7 +124,7 @@ nav ul li a {
   border: 1px solid rgba(0, 0, 0, 0.9);
   border-radius: 10px;
   padding: 0.5rem 1rem;
-  background-color: #f8733a;
+  background-color: #3EBBC2;
 }
 
 nav ul li a:hover {
@@ -155,7 +155,7 @@ nav ul.open {
 
 /* Date */
 .date {
-  background-color: #f8733a;
+  background-color: #3EBBC2;
   width: 100%;
   margin: 10px;
   grid-column: 1/4;
@@ -193,6 +193,9 @@ section.spothlight2 {
 }
 
 /*|| FOOTER ||*/
+footer img{
+  width: 100px;
+}
 footer p,
 footer a {
   margin: 10px;
