@@ -19,6 +19,7 @@ footer {
 
 p,
 nav,
+main,
 footer {
   font-size: 16px;
   font-family: "Abyssinica SIL", Georgia, serif;
@@ -117,17 +118,20 @@ nav ul li {
 
 nav ul li a {
   display: block;
-  color: black;
+  color: white;
   font-weight: bold;
   text-decoration: none;
-  border: 1px solid rgba(0, 0, 0, 0.9);
   border-radius: 10px;
   padding: 0.5rem 1rem;
-  background-color: #3EBBC2;
+  transition: color .9s ease-in-out, box-shadow .9s ease-in-out;
 }
 
+
 nav ul li a:hover {
-  background-color: rgba(0, 0, 0, 0); 
+  color: black;
+  background-color: #3EBBC2;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.9); 
+  box-shadow: inset 100px 0 0 0 #3EBBC2;
 }
 
 nav ul.open {
