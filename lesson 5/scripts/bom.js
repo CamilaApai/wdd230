@@ -1,6 +1,6 @@
-const input = document.querySelector('favchap');
+const input = document.querySelector('#favchap');
 const button = document.querySelector('button');
-const list = document.querySelector('list');
+const list = document.querySelector('.list');
 
 button.addEventListener('click', () => {
     const myItem = input.value;
@@ -13,7 +13,7 @@ button.addEventListener('click', () => {
     listItem.appendChild(listText);
     listText.textContent = myItem;
     listItem.appendChild(listBtn);
-    listBtn.textContent = 'X';
+    listBtn.textContent = '❌';
     list.appendChild(listItem);
 
     listBtn.addEventListener('click', () => {
