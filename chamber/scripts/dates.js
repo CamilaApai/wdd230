@@ -36,3 +36,8 @@ dateformat = new Intl.DateTimeFormat("de-AT", {
 //Use querySelector to access the HTML element.
 document.querySelector("#lastModified").textContent = dateformat;
 
+//BANNER | Top of page
+const day = current_date.getDay();
+
+//Use querySelector to access the HTML element.
+document.querySelector("#currentyear").textContent = currentyear;
