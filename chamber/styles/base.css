@@ -25,11 +25,6 @@ footer {
   font-family: "Abyssinica SIL", Georgia, serif;
 }
 
-img {
-  width: 50px;
-  height: auto;
-}
-
 /*|| HEADER ||*/
 header {
   display: flex;
@@ -48,6 +43,8 @@ header {
 
 .headerfirst .logo {
   align-items: center;
+  width: 50px;
+  height: auto;
 }
 
 .heading {
@@ -177,22 +174,32 @@ main {
 }
 
 main section {
-  text-align: start;
-  padding: 10px 100px 100px 10px;
+  text-align: center;
+  /*padding: 10px 100px 100px 10px;*/
   border: 1px solid black;
   margin: 5px;
   background-color: skyblue;
 }
 
-section.hero {
-  position: relative;
-  padding: 0;
-  margin: 0;
+section h3{
+  color: #061628;
 }
 
-section.hero img{
+section > img{
   width: auto;
   height: 200px;
+  margin: 0px 20px;
+}
+
+section.hero {
+  position: relative;
+}
+
+section.hero img {
+  width: auto;
+  height: 500px;
+  padding: 0;
+  margin: 0;
 }
 
 section.hero h2 {

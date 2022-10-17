@@ -40,6 +40,10 @@
     grid-row: 4;
   }
 
+  section.join button{
+    display: block;
+  }
+
   section.event {
     grid-column: 1/2;
     grid-row: 5;
