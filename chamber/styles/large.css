@@ -27,9 +27,10 @@
   /*|| MAIN Grid ||*/
   main {
     grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: repeat(3, 9em);
-  }
+    grid-template-rows: repeat(3, 1fr);
 
+  }
+ 
   section.event {
     grid-column: 1/2;
     grid-row: 1;
