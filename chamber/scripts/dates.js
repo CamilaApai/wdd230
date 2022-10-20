@@ -37,7 +37,10 @@ dateformat = new Intl.DateTimeFormat("de-AT", {
 document.querySelector("#lastModified").textContent = dateformat;
 
 //BANNER | Top of page
-const day = current_date.getDay();
+const weekDay = current_date.getDay();
 
-//Use querySelector to access the HTML element.
-document.querySelector("#currentyear").textContent = currentyear;
+if (( weekDay == 1) || ( weekDay == 2)) {
+  banner.innerText = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
+}
+
+document.querySelector("#banner").style.fontFamily = "Ubuntu, Helvetica, sans-serif";
