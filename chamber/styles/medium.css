@@ -15,22 +15,26 @@
     grid-column: 1/3;
     grid-row: 1;
   }
-
+  
   section.news {
     grid-column: 1/3;
     grid-row: 2;
   }
 
   .spothlights {
+    grid-column: 1/3;
+    grid-row: 3;
     display: flex;
-    grid-column: 1/4;
+    flex-flow: row;
   }
 
   section.spothlight1 {
-    flex: 1;
+    grid-row: 1;
+
   }
 
   section.spothlight2 {
+    grid-row: 2;
     flex: 1;
   }
 
@@ -45,12 +49,12 @@
   }
 
   section.event {
-    grid-column: 1/2;
+    grid-column: 1;
     grid-row: 5;
   }
 
   section.weather {
-    grid-column: 2/3;
+    grid-column: 2;
     grid-row: 5;
   }
 

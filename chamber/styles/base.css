@@ -175,7 +175,6 @@ main {
 
 main section {
   text-align: center;
-  /*padding: 10px 100px 100px 10px;*/
   border: 1px solid black;
   margin: 5px;
   background-color: skyblue;
@@ -188,25 +187,27 @@ section h3{
 section > img{
   width: auto;
   height: 200px;
+  padding: 0px;
   margin: 0px 20px;
 }
 
 section.hero {
   position: relative;
+  height: 250px;
 }
 
 section.hero img {
-  width: auto;
-  height: 500px;
-  padding: 0;
-  margin: 0;
-  
+  width: 100%;
+  object-fit: cover;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;  
 }
 
 section.hero h2 {
   position: absolute;
 	top: 25px;
-	right: 100px;
+	left: 70px;
 	background: radial-gradient(#3EBBC2, #184271);
   opacity: 0.9;
 	padding: 1.5rem;
@@ -222,8 +223,8 @@ section.hero button{
   border-radius: 10px;
   background-color: rgba(240, 240, 240, 0.8);
   position: absolute;
-  bottom: 50px;
-	right: 100px;
+  bottom: 25px;
+	right: 0px;
 }
 
 section.spothlights {
