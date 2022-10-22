@@ -155,7 +155,7 @@ nav ul.open {
 }
 
 /* Date */
-.date {
+#date {
   background-color: #3EBBC2;
   width: 100%;
   margin: 10px;

@@ -3,7 +3,7 @@
 const current_date = new Date();
 
 //Use querySelector to access the HTML element.
-const dateUK = document.querySelector(".date"); 
+const dateUK = document.querySelector("#date"); 
 
 const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 	dateStyle: "full"
