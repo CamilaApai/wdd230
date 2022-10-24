@@ -47,7 +47,12 @@
   </header>
   <main>
     <section class="hero">
-      <img src="images/wdd230-org (1).jpg" alt="Picture of Montevideo buildings">
+      <picture class="photos">
+        <source srcset="images/officeherosmall.jpg" media="(max-width: 200px)">
+        <source srcset="images/officeheromedium.jpg" media="(max-width: 500px)">
+        <img src="images/officeherolarge.jpg" alt="Picture of people on a meeting">
+        <!-- img src="" alt="Picture of Montevideo buildings"> -->
+      </picture>
       <h2>Welcome to Montevideo Chamber of Commerce</h2>
       <button>Join the Chamber</button>
     </section>
@@ -59,14 +64,15 @@
     <section class="weather">
       <h3>Weather</h3>
       <img src="images/weather.png" alt="weather image">
-      <p>Partly Cloudy</p>
+      <span id="clime">Partly Cloudy</span>
+      <span id="temperature">33</span>°F
       <hr>
-      <p>Wind Speed: 2,5 km/h</p>
-      <p>Wind Chill: N/A</p>
+      Wind Speed: <span id="windspeed">4</span>mph
+      Wind Chill: <span id="windchill"></span>
     </section>
     <section class="join">
-      <button>Join Us!</button>
       <p>Find out how to join our Chamber of Commerce</p>
+      <button>Join Us!</button>
     </section>
     <section class="news">
       <h3>News Release</h3>
@@ -116,6 +122,7 @@
 </footer>
   <script src="scripts/dates.js"></script>
   <script src="scripts/nav-button.js"></script>
+  <script src="scripts/windchill.js"></script>
 </body>
 
 </html>

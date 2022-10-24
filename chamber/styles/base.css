@@ -214,16 +214,24 @@ section.hero h2 {
   font-size: 20px;
 }
 
-section.hero button{
-  line-height: 2em;
+button {
   padding: 5px;
   width: 10em;
   margin: 10px;
   border-radius: 10px;
   background-color: rgba(240, 240, 240, 0.8);
+}
+
+section.hero button {
+  line-height: 2em;
   position: absolute;
   bottom: 25px;
 	right: 0px;
+}
+
+section.join button {
+  line-height: 1em;
+  margin: auto
 }
 
 section.spothlights {
