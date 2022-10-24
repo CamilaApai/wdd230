@@ -234,21 +234,6 @@ section.join button {
   margin: auto
 }
 
-section.weather #clime{
-  text-align: center;
-  display: block;
-}
-
-section.weather ul{
-  padding: 0px;
-}
-
-section.weather ul li{
-  list-style: none;  
-  text-align: center; 
-  padding: 5px;
-}
-
 section.spothlights {
   padding: 0px;
 }
