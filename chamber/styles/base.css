@@ -92,7 +92,7 @@ h2 {
 
 /* Navigation Bar */
 
-nav {
+nav.small {
   display: block;
 }
 nav button {
@@ -216,7 +216,6 @@ section.hero h2 {
 
 button {
   padding: 5px;
-  width: 10em;
   margin: 10px;
   border-radius: 10px;
   background-color: rgba(240, 240, 240, 0.8);

@@ -12,7 +12,11 @@
   }
 
   /* Navigation Bar */
-  nav button {
+  nav.small {
+    display: none;
+  }
+
+  #hamburgerBtn {
     display: none;
   }
 
