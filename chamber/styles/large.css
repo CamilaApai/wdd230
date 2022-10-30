@@ -12,6 +12,13 @@
   h3 {
     font-size: 20px;
   }
+  
+  p,
+  nav,
+  main,
+  footer {
+    font-size: 18px;
+  }
 
  /* Social Icons */
   .social {

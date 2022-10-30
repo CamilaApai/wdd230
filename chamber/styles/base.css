@@ -174,7 +174,7 @@ main:not(.demographics) {
   padding: 10px;
   margin: 10px;
   display: grid;
-}
+} 
 
 main.demographics {
   padding: 10px;
