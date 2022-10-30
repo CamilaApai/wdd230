@@ -12,8 +12,9 @@ function preloadImage(img) {
 }
 
 const imgOptions = {
-  threshold: 0,
-  rootMargin: "0px 0px 50px 0px"
+    root: document.querySelector('#scrollArea'),
+	rootMargin: '10px',
+	threshold: 1.0
 };
 
 //Intersection Observer: load target images only when the user scrolls down.
