@@ -19,6 +19,11 @@
     grid-template-rows: repeat(5, 0fr);
   }
 
+  section.right img,
+  section.left img {
+  width: 500px;
+}
+
   section img:hover {
     box-shadow: 0 0 50px #333;
   }
