@@ -5,10 +5,22 @@
     font-size: 25px;
   }
 
+  h2:not(section.heading h2) {
+    font-size: 20px;
+  }
+  
+  h3 {
+    font-size: 18px;
+  }
+
   /*|| MAIN Grid ||*/
   main {
     grid-template-columns: 2fr 1fr;
     grid-template-rows: repeat(5, 0fr);
+  }
+
+  section img:hover {
+    box-shadow: 0 0 50px #333;
   }
 
   section.hero {

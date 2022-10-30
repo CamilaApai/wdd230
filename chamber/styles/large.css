@@ -5,6 +5,14 @@
     font-size: 30px;
   }
 
+  h2:not(section.heading h2) {
+    font-size: 25px;
+  }
+  
+  h3 {
+    font-size: 20px;
+  }
+
  /* Social Icons */
   .social {
     grid-column: 4/5;
@@ -12,12 +20,12 @@
   }
 
   /* Navigation Bar */
-  nav.small {
+  #hamburgerBtn {
     display: none;
   }
 
-  #hamburgerBtn {
-    display: none;
+  nav {
+    grid-template-rows: 2;
   }
 
   nav ul#navigation {
@@ -32,7 +40,6 @@
   main {
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: repeat(3, 1fr);
-
   }
 
   section.event {
@@ -72,7 +79,6 @@
     display: grid;
     grid-template-rows: repeat(3, 1fr);
   }
-
 
   section.spothlight3 {
     display: block;

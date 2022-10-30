@@ -61,8 +61,12 @@ h1 {
 }
 
 h2 {
-  font-size: 15px;
+  font-size: 18px;
   margin: 0px;
+}
+
+h3 {
+  font-size: 17px;
 }
 
 /* Social Icons */
@@ -91,11 +95,12 @@ h2 {
 }
 
 /* Navigation Bar */
-
-nav.small {
+nav {
   display: block;
 }
-nav button {
+
+nav button,
+#hamburgerBtn  {
   margin: 0.2rem 2vw;
   background: transparent;
   font-size: 2rem;
@@ -122,15 +127,14 @@ nav ul li a {
   text-decoration: none;
   border-radius: 10px;
   padding: 0.5rem 1rem;
-  transition: color .9s ease-in-out, box-shadow .9s ease-in-out;
+  transition: color 0.9s ease-in-out, box-shadow 0.9s ease-in-out;
 }
-
 
 nav ul li a:hover {
   color: black;
-  background-color: #3EBBC2;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.9); 
-  box-shadow: inset 100px 0 0 0 #3EBBC2;
+  background-color: #3ebbc2;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.9);
+  box-shadow: inset 100px 0 0 0 #3ebbc2;
 }
 
 nav ul.open {
@@ -155,7 +159,7 @@ nav ul.open {
 
 /* Date */
 #date {
-  background-color: #3EBBC2;
+  background-color: #3ebbc2;
   width: 100%;
   margin: 10px;
   grid-column: 1/4;
@@ -166,28 +170,50 @@ nav ul.open {
 }
 
 /* || MAIN ||*/
-main {
+main:not(.demographics) {
   padding: 10px;
   margin: 10px;
   display: grid;
 }
 
-main section {
+main.demographics {
+  padding: 10px;
+  margin: 10px;
+}
+
+main section,
+h2:not(section.heading h2),
+section ~ p {
   text-align: center;
   border: 1px solid black;
   margin: 5px;
   background-color: skyblue;
+  padding: 10px;
 }
 
-section h3{
+section h3 {
   color: #061628;
 }
 
-section > img{
+section img[data-src] {
+  filter: blur(0.2em); 
+}
+
+section > img {
   width: auto;
   height: 200px;
   padding: 0px;
   margin: 0px 20px;
+  border: 1px solid black;
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
+
+section.right img,
+section.left img {
+  width: 400px;
+  height: auto;
+  border-radius: 5px;
 }
 
 section.hero {
@@ -200,16 +226,16 @@ section.hero img {
   object-fit: cover;
   margin: 0px;
   padding: 0px;
-  height: 100%;  
+  height: 100%;
 }
 
 section.hero h2 {
   position: absolute;
-	top: 25px;
-	left: 70px;
-	background: radial-gradient(#3EBBC2, #184271);
+  top: 25px;
+  left: 70px;
+  background: radial-gradient(#3ebbc2, #184271);
   opacity: 0.9;
-	padding: 1.5rem;
+  padding: 1.5rem;
   border-radius: 10px;
   font-size: 20px;
 }
@@ -225,12 +251,12 @@ section.hero button {
   line-height: 2em;
   position: absolute;
   bottom: 25px;
-	right: 0px;
+  right: 0px;
 }
 
 section.join button {
   line-height: 1em;
-  margin: auto
+  margin: auto;
 }
 
 section.spothlights {
@@ -248,7 +274,7 @@ section.spothlight2 {
 }
 
 /*|| FOOTER ||*/
-footer img{
+footer img {
   width: 100px;
 }
 footer p,
