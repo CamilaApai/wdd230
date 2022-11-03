@@ -1,36 +1,33 @@
-//Loads all the images with data-src attribute
-const images = document.querySelectorAll("img[data-src]");
+//progressive loading of images
+const img = document.querySelectorAll("[data-src]");
 
-function preloadImage(img) {
-   const src = img.getAttribute("data-src");
-    if(!src) {
-       return;
-    }
-    img.setAttribute('src', img.getAttribute('data-src'));
-    img.onload = () => {
-      img.removeAttribute('data-src');
-    };
+function preloadImage(img){
+  const src = img.getAttribute("data-src");
+  if(!src){
+    return;
   }
-
-  const imgOptions = {
-    threshold: 1,
-    rootMargin: "0px 0px -10px 0px"
+  img.setAttribute('src', img.getAttribute('data-src'));
+  img.onload = () => {
+    img.removeAttribute('data-src');
   };
+}
 
-//Intersection Observer: load target images only when the user scrolls down.
-const imgObserver = new IntersectionObserver((entries, 
-    imgObserver) => {
-    entries.forEach(entry => {
-        if (!entry.isIntersecting) {
-            return;
-        } else {
-            preloadImage(entry.target);
-            imgObserver.unobserve(entry.target);
-        }
-    })
+const imgOptions = {
+  threshold: 1,
+  rootMargin: "0px 0px -10px 0px"
+};
+
+const imgObserver = new IntersectionObserver((entries, imgObserver) => {
+  entries.forEach(entry =>{
+    if (!entry.isIntersecting){
+      return;
+    }else {
+      preloadImage(entry.target);
+      imgObserver.unobserve(entry.target);
+    }
+  })
 }, imgOptions);
 
-images.forEach(image => {
-    imgObserver.observe(image);
-}); 
-
+ img.forEach(img => {
+  imgObserver.observe(img);
+})
