@@ -5,18 +5,17 @@ function preloadImage(img) {
    const src = img.getAttribute("data-src");
     if(!src) {
        return;
-    }  
-        img.src = src;
-        img.removeAttribute("data-src");
-    
-}
+    }
+    img.setAttribute('src', img.getAttribute('data-src'));
+    img.onload = () => {
+      img.removeAttribute('data-src');
+    };
+  }
 
-const imgOptions = {
-    threshold: 0,
-    //root: document.querySelector('#scrollArea'),
-	rootMargin: "0px 0px 300px 0px"
-	//
-};
+  const imgOptions = {
+    threshold: 1,
+    rootMargin: "0px 0px -10px 0px"
+  };
 
 //Intersection Observer: load target images only when the user scrolls down.
 const imgObserver = new IntersectionObserver((entries, 
