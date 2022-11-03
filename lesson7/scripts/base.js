@@ -7,14 +7,15 @@ function preloadImage(img) {
        return;
     }  
         img.src = src;
-//        img.removeAttribute("data-src");
+        img.removeAttribute("data-src");
     
 }
 
 const imgOptions = {
+    threshold: 0,
     //root: document.querySelector('#scrollArea'),
-	//rootMargin: '10px',
-	//threshold: 1.0
+	rootMargin: "0px 0px 300px 0px"
+	//
 };
 
 //Intersection Observer: load target images only when the user scrolls down.
