@@ -1,40 +1,68 @@
 body {
     padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 table {
     text-align: center;
     border: 1px solid black;
+    width: 80%;
     margin: 10px auto;
+    table-layout: fixed;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px silver;
 }
 
 caption {
     padding: 10px;
     caption-side: bottom;
-    font-size: 1.5em;
+    font-size: 1em;
     color: purple;
 }
 
-tr:nth-child(even) td {
-    background-color: rgba(84, 68, 68, 0.213);
-}
-  
-tr:nth-child(odd) td {
-    background-color: rgb(250, 250, 250);
-  }
-
-tr:first-child th {
+tr:first-child th, .highlight {
     color: black;
     background-color: palevioletred;
+}
+
+th, 
+td {
+	padding: 10px;
+    font-size: 1.5em;
+    border: 1px solid black;
 }
 
 th {
 	background-color: pink;
 }
 
-th, td {
-	padding: 20px;
+tbody tr:nth-child(even) {
+    background-color: rgba(84, 68, 68, 0.213);
+}
+  
+tbody tr:nth-child(odd) {
+    background-color: rgb(250, 250, 250);
+  }
+
+
+@media only screen and (min-width: 32.5em) {
+    table {
+        width: 90%;
+    }
+
+    caption {
+        font-size: 1.5em;
+    }
+
+    th, 
+    td {
     font-size: 2em;
+    padding: 20px;
+    } 
 }
 
-
+@media only screen and (min-width: 60em) {
+    table {
+        width: 100%;
+    }
+}
