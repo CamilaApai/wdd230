@@ -1,0 +1,40 @@
+body {
+    padding: 20px;
+}
+
+table {
+    text-align: center;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    font-size: 1.5em;
+    color: purple;
+}
+
+tr:nth-child(even) td {
+    background-color: rgba(84, 68, 68, 0.213);
+}
+  
+tr:nth-child(odd) td {
+    background-color: rgb(250, 250, 250);
+  }
+
+tr:first-child th {
+    color: black;
+    background-color: palevioletred;
+}
+
+th {
+	background-color: pink;
+}
+
+th, td {
+	padding: 20px;
+    font-size: 2em;
+}
+
+
