@@ -306,6 +306,15 @@ main.join form input {
   padding: 10px 10px 10px 0px;
 }
 
+input,
+#typeofmemberships,
+#bdescription
+{
+  border: 2px solid black;
+  background-image: linear-gradient(to right, aquamarine, rgb(104, 198, 193));
+}
+
+
 section.memberships h3,
 section.memberships p {
   text-align: center;
@@ -319,6 +328,7 @@ section.memberships div {
   margin: 10px;
   background-color: white;
 }
+
 /*
 section.memberships div.nonprofit {
   background-color: white;
