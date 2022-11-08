@@ -100,7 +100,7 @@ nav {
 }
 
 nav button,
-#hamburgerBtn  {
+#hamburgerBtn {
   margin: 0.2rem 2vw;
   background: transparent;
   font-size: 2rem;
@@ -174,14 +174,11 @@ main:not(.demographics) {
   padding: 10px;
   margin: 10px;
   display: grid;
-} 
-
-main.demographics {
-  padding: 10px;
-  margin: 10px;
 }
 
-main section,
+main section:not(.memberships),
+main.join,
+main.thankyou,
 h2:not(section.heading h2),
 section ~ p {
   text-align: center;
@@ -191,31 +188,13 @@ section ~ p {
   background-color: skyblue;
 }
 
-section h3 {
-  color: #061628;
+main.demographics,
+main.join {
+  padding: 10px;
+  margin: 10px;
 }
 
-section img[data-src] {
-  filter: blur(0.2em); 
-}
-
-section > img {
-  width: auto;
-  height: 200px;
-  padding: 0px;
-  margin: 0px 20px;
-}
-
-section.right img,
-section.left img {
-  width: 400px;
-  height: auto;
-  border-radius: 5px;
-  border: 1px solid black;
-  filter: blur(0em);
-  transition: filter 0.5s;
-}
-
+/*Home Page*/
 section.hero {
   position: relative;
   height: 250px;
@@ -272,6 +251,107 @@ section.spothlight1,
 section.spothlight2 {
   grid-area: auto;
 }
+/*End Home Page*/
+
+/*Discover Page*/
+section h3 {
+  color: #061628;
+}
+
+section img[data-src] {
+  filter: blur(0.2em);
+}
+
+section > img {
+  width: auto;
+  height: 200px;
+  padding: 0px;
+  margin: 0px 20px;
+}
+
+section.right img,
+section.left img {
+  width: 400px;
+  height: auto;
+  border-radius: 5px;
+  border: 1px solid black;
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
+/*End Discover Page*/
+
+/*Join Page*/
+main.join form,
+main.join:not(main.join h2) {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+main.join h2.join,
+main.thankyou h2.welcome {
+  border: none;
+}
+
+main.join form label:not(.membership) {
+  font-weight: bold;
+}
+
+main.join form label:not(.membership),
+main.join form input {
+  padding: 10px 10px 10px 0px;
+}
+
+section.memberships h3,
+section.memberships p {
+  text-align: center;
+  margin: 5px;
+}
+
+section.memberships div {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+}
+/*
+section.memberships div.nonprofit {
+  background-color: white;
+}
+
+section.memberships div.bronze {
+  background-color: #AA8B56;
+}
+
+section.memberships div.silver {
+  background-color: silver;
+}
+
+section.memberships div.gold {
+  background-color: goldenrod;
+}
+*/
+
+/*End Join Page*/
+
+/*Thank you Page*/
+main.thankyou {
+  font-weight: none;
+  display: block;
+}
+
+main.thankyou p {
+  margin: 5px;
+}
+
+
+/*EndThank you Page*/
+
 
 /*|| FOOTER ||*/
 footer img {
