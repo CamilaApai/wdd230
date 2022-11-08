@@ -130,7 +130,8 @@ nav ul li a {
   transition: color 0.9s ease-in-out, box-shadow 0.9s ease-in-out;
 }
 
-nav ul li a:hover {
+nav ul li a:hover,
+form input.submitbtn:hover {
   color: black;
   background-color: #3ebbc2;
   border-bottom: 1px solid rgba(0, 0, 0, 0.9);
@@ -306,7 +307,7 @@ main.join form input {
   padding: 10px 10px 10px 0px;
 }
 
-input,
+input:not(.submitbtn),
 #typeofmemberships,
 #bdescription
 {
@@ -314,6 +315,17 @@ input,
   background-image: linear-gradient(to right, aquamarine, rgb(104, 198, 193));
 }
 
+form input.submitbtn {
+  margin: 10px 0px;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: #007bb5;
+}
+
+form input.submitbtn:hover {
+  background-color: #3b5998;
+  box-shadow: none;
+}
 
 section.memberships h3,
 section.memberships p {
@@ -326,27 +338,8 @@ section.memberships div {
   border-radius: 10px;
   padding: 10px;
   margin: 10px;
-  background-color: white;
+  background-color: #EDEFF0;
 }
-
-/*
-section.memberships div.nonprofit {
-  background-color: white;
-}
-
-section.memberships div.bronze {
-  background-color: #AA8B56;
-}
-
-section.memberships div.silver {
-  background-color: silver;
-}
-
-section.memberships div.gold {
-  background-color: goldenrod;
-}
-*/
-
 /*End Join Page*/
 
 /*Thank you Page*/
@@ -358,8 +351,6 @@ main.thankyou {
 main.thankyou p {
   margin: 5px;
 }
-
-
 /*EndThank you Page*/
 
 
