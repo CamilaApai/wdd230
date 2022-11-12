@@ -3,9 +3,11 @@ const cards = document.querySelector('.cards');
 
 async function getProfeths() {
   const response = await fetch(requestURL);
-  const data = await response.json();
-  data.prophets.forEach(prophet => {displayProphets(prophet)})
-}
+  if(response.ok) {
+    const data = await response.json();
+    data.prophets.forEach(prophet => {displayProphets(prophet)})
+  }
+} 
 
 function displayProphets(prophet) {
     // Create elements to add to the document
