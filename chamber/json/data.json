@@ -1,0 +1,76 @@
+{
+  "members": [
+    {
+      "name": "Starbucks",
+      "address": "",
+      "phonenumber": "",
+      "membershiplevel": "",
+      "websiteurl": "",
+      "image": "images/starbucks.png"
+    },
+    {
+      "name": "Conaprole",
+      "address": "",
+      "phonenumber": "",
+      "membershiplevel": "",
+      "websiteurl": "",
+      "image": "images/conaprole.jpg"
+    },
+    {
+      "name": "Ancap",
+      "address": "",
+      "phonenumber": "",
+      "membershiplevel": "",
+      "websiteurl": "",
+      "image": "images/ancap.jpg"
+    },
+    {
+      "name": "Buquebus",
+      "address": "",
+      "phonenumber": "",
+      "membershiplevel": "",
+      "websiteurl": "",
+      "image": "images/buquebus.jpg"
+    },
+    {
+      "name": "Farmashop",
+      "address": "",
+      "phonenumber": "",
+      "membershiplevel": "",
+      "websiteurl": "",
+      "image": "images/farmashop.jpg"
+    },
+    {
+      "name": "Alianza",
+      "address": "",
+      "phonenumber": "",
+      "membershiplevel": "",
+      "websiteurl": "",
+      "image": "images/alianza.jpg"
+    },
+    {
+      "name": "Ancel",
+      "address": "",
+      "phonenumber": "",
+      "membershiplevel": "",
+      "websiteurl": "",
+      "image": "images/ancel.jpg"
+    },
+    {
+      "name": "Aida",
+      "address": "",
+      "phonenumber": "",
+      "membershiplevel": "",
+      "websiteurl": "",
+      "image": "images/aida.jpg"
+    },
+    {
+      "name": "Sonda",
+      "address": "",
+      "phonenumber": "",
+      "membershiplevel": "",
+      "websiteurl": "",
+      "image": "images/sonda.jpg"
+    }  
+  ]
+}

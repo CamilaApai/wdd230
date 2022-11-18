@@ -263,7 +263,7 @@ section img[data-src] {
   filter: blur(0.2em);
 }
 
-section > img {
+section > img:not(main.directory img) {
   width: auto;
   height: 200px;
   padding: 0px;
@@ -351,8 +351,40 @@ main.thankyou {
 main.thankyou p {
   margin: 5px;
 }
-/*EndThank you Page*/
+/*End Thank you Page*/
 
+/*Directtory Page*/
+main.directory div.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+main.directory section {
+margin: 0.25rem;
+padding: 0.35rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+main.directory img {
+  width: 256px;
+  height: 256px;
+  padding: 0px;
+  margin: 0px 20px;
+}
+
+main.directory p {
+  margin: 0px;
+  padding: 5px;
+}
+
+main.directory button img {
+  width: auto;
+  height: 30px;
+}
+
+/*End Directtory Page*/
 
 /*|| FOOTER ||*/
 footer img {
@@ -392,3 +424,5 @@ hr {
   background-color: rgba(0, 0, 40, 0.3);
   height: 1px;
 }
+
+

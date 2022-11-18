@@ -1,0 +1,13 @@
+body {
+    background-color: lavenderblush;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h1 {
+    text-shadow: 2px 2px 8px palevioletred;
+}
+
+figcaption {
+    text-transform: capitalize;
+}
