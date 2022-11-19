@@ -1,21 +1,28 @@
-//const gridbutton = document.querySelector("#grid");
-//const listbutton = document.querySelector("#list");
-//const display = document.querySelector(".cards");
-//
-//gridbutton.addEventListener("click", () => {
-//	display.classList.add("grid");
-//	display.classList.remove("list");
-//});
-//
-//listbutton.addEventListener("click", () => {
-//	display.classList.add("list");
-//	display.classList.remove("grid");
-//});
+//GRID AND LIST BUTTONS| MAIN
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const display = document.querySelector(".cards");
 
+gridbutton.addEventListener("click", () => {
+	display.classList.add("grid");
+	display.classList.remove("list");
+});
+
+listbutton.addEventListener("click", () => {
+	display.classList.add("list");
+	display.classList.remove("grid");
+});
+
+function showList() {
+	display.classList.add("list");
+	display.classList.remove("grid");
+}
+
+//DISPLAY MEMBERS CARDS| MAIN
 const requestURL = 'json/data.json';
 const cards = document.querySelector('.cards');
 
-async function getProfeths() {
+async function getMembers() {
   const response = await fetch(requestURL);
   if(response.ok) {
     const data = await response.json();
@@ -29,16 +36,20 @@ function displaymembers(member) {
     let h2 = document.createElement('h2');
     let portrait = document.createElement('img');
     let address = document.createElement('p');
-    let phonenumber = document.createElement('p');
+    let phonenumber = document.createElement('a');
     let membershiplevel = document.createElement('p');
+    let websiteurl = document.createElement('a');
 
 
     // Change the textContent property of the h2 element to contain the member's full name
     h2.textContent = `${member.name}`;
-    address.textContent = `Address: ${member.address}`;
-    phonenumber.textContent = `Phone Number: ${member.phonenumber}`;
-    membershiplevel.textContent = `Membership Level: ${member.membershiplevel}`;
-  
+    address.textContent = `${member.address}`;
+    phonenumber.innerHTML = `${member.phonenumber}`;
+    phonenumber.href= `tel:${member.phonenumber}`;
+    membershiplevel.textContent = `${member.membershiplevel}`;
+    websiteurl.textContent = `Website`;
+    websiteurl.href =  `${member.websiteurl}`;
+
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     portrait.setAttribute('src', member.image);
     portrait.setAttribute('alt', `${member.name} logo`);
@@ -50,13 +61,14 @@ function displaymembers(member) {
     card.appendChild(membershiplevel);
     card.appendChild(address);
     card.appendChild(phonenumber);
+    card.appendChild(websiteurl);
   
   
     // Add/append the existing HTML div with the cards class with the section(card)
     cards.appendChild(card);
 }
 
-let data = getProfeths();
+let data = getMembers();
 
 
 

@@ -13,7 +13,7 @@
   }
 
   /*|| MAIN Grid ||*/
-  main {
+  main:not(.directory) {
     grid-template-columns: 2fr 1fr;
     grid-template-rows: repeat(5, 0fr);
   }
@@ -84,6 +84,14 @@
     grid-column-gap: 1em;
   }
   /*End Join Page*/
+
+  /*Directtory Page*/
+  main.directory .list section img  {
+		display: block;
+    width: 70px;
+	}
+    
+  /*End Directtory Page*/
 
   /*|| FOOTER Grid ||*/
   footer {

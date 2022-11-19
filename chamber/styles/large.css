@@ -43,10 +43,11 @@
   }
 
   /*|| MAIN Grid ||*/
-  main {
+  main:not(.directory) {
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: repeat(3, 1fr);
   }
+  
 
   /*Home Page*/
   section.event {

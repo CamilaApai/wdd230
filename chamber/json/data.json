@@ -2,74 +2,74 @@
   "members": [
     {
       "name": "Starbucks",
-      "address": "",
-      "phonenumber": "",
-      "membershiplevel": "",
-      "websiteurl": "",
+      "address": "Av. Luis Alberto de Herrera 1290",
+      "phonenumber": "(+598) 2628 7322",
+      "membershiplevel": "Silver",
+      "websiteurl": "https://www.starbucks.com.uy/",
       "image": "images/starbucks.png"
     },
     {
       "name": "Conaprole",
-      "address": "",
-      "phonenumber": "",
-      "membershiplevel": "",
-      "websiteurl": "",
+      "address": "Magallanes 1871",
+      "phonenumber": "(+598) 2924 71 71",
+      "membershiplevel": "Bronze",
+      "websiteurl": "https://www.conaprole.uy/",
       "image": "images/conaprole.jpg"
     },
     {
       "name": "Ancap",
-      "address": "",
-      "phonenumber": "",
-      "membershiplevel": "",
-      "websiteurl": "",
+      "address": "Paysandú and Av. Libertador",
+      "phonenumber": "(+598) 2901 3773",
+      "membershiplevel": "Gold",
+      "websiteurl": "https://www.ancap.com.uy/",
       "image": "images/ancap.jpg"
     },
     {
       "name": "Buquebus",
-      "address": "",
-      "phonenumber": "",
-      "membershiplevel": "",
-      "websiteurl": "",
+      "address": "Rambla 25 de Agosto de 1825",
+      "phonenumber": "(+598) 092 913 123",
+      "membershiplevel": "Bronze",
+      "websiteurl": "https://www.buquebus.com.uy/",
       "image": "images/buquebus.jpg"
     },
     {
       "name": "Farmashop",
-      "address": "",
-      "phonenumber": "",
-      "membershiplevel": "",
-      "websiteurl": "",
+      "address": "Av. Bolivia 1381",
+      "phonenumber": "(+598) 2848 4848",
+      "membershiplevel": "Silver",
+      "websiteurl": "https://tienda.farmashop.com.uy/?gclid=Cj0KCQiA99ybBhD9ARIsALvZavUtDvqbB8Gm6iet1a3hcok-ASt1LAD1L8gBbxRibAW0EI1a1V37gAgaArmQEALw_wcB",
       "image": "images/farmashop.jpg"
     },
     {
       "name": "Alianza",
-      "address": "",
-      "phonenumber": "",
-      "membershiplevel": "",
-      "websiteurl": "",
+      "address": "Paraguay 1217",
+      "phonenumber": "(+598) 2902 5160",
+      "membershiplevel": "Bronze",
+      "websiteurl": "https://www.alianza.edu.uy/es/",
       "image": "images/alianza.jpg"
     },
     {
       "name": "Ancel",
-      "address": "",
-      "phonenumber": "",
-      "membershiplevel": "",
-      "websiteurl": "",
+      "address": "Guatemala 1075",
+      "phonenumber": "(+598) 2800 6611",
+      "membershiplevel": "Gold",
+      "websiteurl": "https://www.antel.com.uy/",
       "image": "images/ancel.jpg"
     },
     {
       "name": "Aida",
-      "address": "",
-      "phonenumber": "",
-      "membershiplevel": "",
-      "websiteurl": "",
+      "address": "San José 1146",
+      "phonenumber": "(+598) 2900 1902",
+      "membershiplevel": "Bronze",
+      "websiteurl": "https://www.aidauruguay.org.uy/",
       "image": "images/aida.jpg"
     },
     {
       "name": "Sonda",
-      "address": "",
-      "phonenumber": "",
-      "membershiplevel": "",
-      "websiteurl": "",
+      "address": "Río Negro 1320",
+      "phonenumber": "(+598) 2908 3000",
+      "membershiplevel": "Silver",
+      "websiteurl": "https://www.sonda.com/",
       "image": "images/sonda.jpg"
     }  
   ]

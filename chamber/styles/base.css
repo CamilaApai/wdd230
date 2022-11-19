@@ -298,7 +298,8 @@ main.thankyou h2.welcome {
   border: none;
 }
 
-main.join form label:not(.membership) {
+main.join form label:not(.membership),
+main.directory div.cards img + p{
   font-weight: bold;
 }
 
@@ -354,34 +355,66 @@ main.thankyou p {
 /*End Thank you Page*/
 
 /*Directtory Page*/
-main.directory div.cards {
+main.directory div.menu {
+	border: 3px solid black;
+	background-color: #184271;
+	text-align: center;
+  margin: 0.25rem;
+  padding: 0.35rem;
+}
+
+main.directory div.menu button img {
+  width: auto;
+  height: 30px;
+  text-align: center;
+}
+
+main.directory .list {
+	display: flex;
+	flex-direction: column;
+}
+
+main.directory .list section {
+  margin: 0.25rem;
+  padding: 0.35rem;
+  display: flex;
+  align-items: center;
+  }
+
+main.directory .grid section {
+  margin: 0.25rem;
+  padding: 0.35rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  
+main.directory .list section img {
+  display: none;
+}
+
+main.directory div.cards:not(.list){
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-main.directory section {
-margin: 0.25rem;
-padding: 0.35rem;
-display: flex;
-flex-direction: column;
-align-items: center;
-}
-
-main.directory img {
-  width: 256px;
-  height: 256px;
+main.directory div.cards img {
+  width: 200px;
+  height: auto;
   padding: 0px;
   margin: 0px 20px;
 }
 
-main.directory p {
-  margin: 0px;
-  padding: 5px;
+main.directory div.cards h2 {
+  border: none;
 }
 
-main.directory button img {
-  width: auto;
-  height: 30px;
+main.directory div.cards h2,
+main.directory div.cards p,
+main.directory div.cards a {
+  margin: 0px;
+  padding: 5px;
+  width: 100%;
 }
 
 /*End Directtory Page*/
