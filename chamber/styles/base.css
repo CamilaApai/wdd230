@@ -407,6 +407,7 @@ main.directory div.cards img {
 
 main.directory div.cards h2 {
   border: none;
+  text-decoration: underline;
 }
 
 main.directory div.cards h2,

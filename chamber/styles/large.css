@@ -48,7 +48,6 @@
     grid-template-rows: repeat(3, 1fr);
   }
   
-
   /*Home Page*/
   section.event {
     grid-column: 1;

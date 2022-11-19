@@ -18,7 +18,8 @@
     grid-template-rows: repeat(5, 0fr);
   }
 
-  section img:hover {
+  section img:hover:not(div.cards img),
+  main.directory div.cards section:hover {
     box-shadow: 0 0 50px #333;
   }
 
@@ -86,11 +87,11 @@
   /*End Join Page*/
 
   /*Directtory Page*/
-  main.directory .list section img  {
-		display: block;
+  main.directory .list section img {
+    display: block;
     width: 70px;
-	}
-    
+  }
+
   /*End Directtory Page*/
 
   /*|| FOOTER Grid ||*/
