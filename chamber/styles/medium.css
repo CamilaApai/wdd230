@@ -1,124 +1,124 @@
 @media only screen and (min-width: 32.5em) {
-  /*|| HEADER ||*/
-  h1 {
-    font-size: 25px;
+    /*|| HEADER ||*/
+    h1 {
+      font-size: 25px;
+    }
+  
+    h2:not(section.heading h2) {
+      font-size: 20px;
+    }
+  
+    h3 {
+      font-size: 18px;
+    }
+  
+    /*|| MAIN Grid ||*/
+    main:not(.directory) {
+      grid-template-columns: 2fr 1fr;
+      grid-template-rows: repeat(5, 0fr);
+    }
+  
+    section img:hover:not(div.cards img),
+    main.directory div.cards section:hover {
+      box-shadow: 0 0 50px #333;
+    }
+  
+    /*Home Page*/
+    section.hero {
+      grid-column: 1/3;
+      grid-row: 1;
+    }
+  
+    section.news {
+      grid-column: 1/3;
+      grid-row: 2;
+    }
+  
+    .spothlights {
+      grid-column: 1/3;
+      grid-row: 3;
+      display: flex;
+      flex-flow: row;
+    }
+  
+    section.spothlight1 {
+      grid-row: 1;
+    }
+  
+    section.spothlight2 {
+      grid-row: 2;
+      flex: 1;
+    }
+  
+    section.join {
+      display: block;
+      grid-column: 1/3;
+      grid-row: 4;
+    }
+  
+    section.join button {
+      display: block;
+    }
+  
+    section.event {
+      grid-column: 1;
+      grid-row: 5;
+    }
+  
+    section.weather {
+      grid-column: 2;
+      grid-row: 5;
+    }
+    /*End Home Page*/
+  
+    /*Discover Page*/
+    section.right img,
+    section.left img {
+      width: 500px;
+    }
+    /*End Discover Page*/
+  
+    /*Join Page*/
+    main.join div.joincontent {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-column-gap: 1em;
+    }
+    /*End Join Page*/
+  
+    /*Directtory Page*/
+    main.directory .list section img {
+      display: block;
+      width: 70px;
+    }
+  
+    /*End Directtory Page*/
+  
+    /*|| FOOTER Grid ||*/
+    footer {
+      display: grid;
+      grid-template-columns: 0.1fr 1fr 1fr;
+    }
+  
+    footer .logo {
+      grid-column: 1;
+    }
+  
+    .locationinfo {
+      grid-column: 2;
+      text-align: left;
+    }
+  
+    .locationinfo h1 {
+      font-size: 22px;
+    }
+    .contactinfo {
+      grid-column: 3;
+      text-align: right;
+    }
+  
+    hr + p,
+    hr {
+      grid-column: 1/4;
+    }
   }
-
-  h2:not(section.heading h2) {
-    font-size: 20px;
-  }
-
-  h3 {
-    font-size: 18px;
-  }
-
-  /*|| MAIN Grid ||*/
-  main:not(.directory) {
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: repeat(5, 0fr);
-  }
-
-  section img:hover:not(div.cards img),
-  main.directory div.cards section:hover {
-    box-shadow: 0 0 50px #333;
-  }
-
-  /*Home Page*/
-  section.hero {
-    grid-column: 1/3;
-    grid-row: 1;
-  }
-
-  section.news {
-    grid-column: 1/3;
-    grid-row: 2;
-  }
-
-  .spothlights {
-    grid-column: 1/3;
-    grid-row: 3;
-    display: flex;
-    flex-flow: row;
-  }
-
-  section.spothlight1 {
-    grid-row: 1;
-  }
-
-  section.spothlight2 {
-    grid-row: 2;
-    flex: 1;
-  }
-
-  section.join {
-    display: block;
-    grid-column: 1/3;
-    grid-row: 4;
-  }
-
-  section.join button {
-    display: block;
-  }
-
-  section.event {
-    grid-column: 1;
-    grid-row: 5;
-  }
-
-  section.weather {
-    grid-column: 2;
-    grid-row: 5;
-  }
-  /*End Home Page*/
-
-  /*Discover Page*/
-  section.right img,
-  section.left img {
-    width: 500px;
-  }
-  /*End Discover Page*/
-
-  /*Join Page*/
-  main.join div.joincontent {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 1em;
-  }
-  /*End Join Page*/
-
-  /*Directtory Page*/
-  main.directory .list section img {
-    display: block;
-    width: 70px;
-  }
-
-  /*End Directtory Page*/
-
-  /*|| FOOTER Grid ||*/
-  footer {
-    display: grid;
-    grid-template-columns: 0.1fr 1fr 1fr;
-  }
-
-  footer .logo {
-    grid-column: 1;
-  }
-
-  .locationinfo {
-    grid-column: 2;
-    text-align: left;
-  }
-
-  .locationinfo h1 {
-    font-size: 22px;
-  }
-  .contactinfo {
-    grid-column: 3;
-    text-align: right;
-  }
-
-  hr + p,
-  hr {
-    grid-column: 1/4;
-  }
-}
