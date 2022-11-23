@@ -172,7 +172,6 @@ section ~ p {
   text-align: center;
   border: 1px solid black;
   margin: 5px;
-  padding: 10px;
   background-color: skyblue;
 }
 
@@ -207,11 +206,20 @@ section.hero h2 {
   font-size: 20px;
 }
 
-button {
+button,
+form input.submitbtn {
   padding: 5px;
   margin: 10px;
   border-radius: 10px;
-  background-color: rgba(240, 240, 240, 0.8);
+  /*background-color: rgba(240, 240, 240, 0.8);*/
+  font-weight: bold;
+  background-color: #007bb5;
+}
+
+button:hover,
+form input.submitbtn:hover {
+  background-color: #3b5998;
+  box-shadow: none;
 }
 
 section.hero button {
@@ -221,9 +229,18 @@ section.hero button {
   right: 0px;
 }
 
-section.join button {
-  line-height: 1em;
+section.join a {
+  text-decoration:none;
+}
+
+section.join a button {
   margin: auto;
+  margin-bottom: 10px;
+}
+
+section.event,
+section.news {
+  padding: 10px;
 }
 
 section.spothlights {
@@ -305,14 +322,6 @@ input:not(.submitbtn),
 
 form input.submitbtn {
   margin: 10px 0px;
-  border-radius: 10px;
-  font-weight: bold;
-  background-color: #007bb5;
-}
-
-form input.submitbtn:hover {
-  background-color: #3b5998;
-  box-shadow: none;
 }
 
 section.memberships h3,
