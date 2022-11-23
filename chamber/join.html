@@ -30,8 +30,8 @@
         <h2>Chamber of Commerce</h2>
       </section>
       <div class="social">
-          <i class="fa fa-facebook" href="https://www.facebook.com/"></i>
-          <a href="https://www.linkedin.com/in/camila-apai/"><i class="fa fa-linkedin"></i></a>
+          <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+          <a href="https://www.linkedin.com/in/camila-apai/" class="fa fa-linkedin"></a>
       </div>
       <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button> 
     </div>
@@ -49,76 +49,76 @@
     <main class="join">
         <h2 class="join">Fill out the form and apply to join us!</h2>
         <div class="joincontent">
-        <form action="thankyou.html" method="get">
-          <label for="fname">First Name:</label>
-          <input type="text" name="fname" id="fname" required>
-          <label for="lname">Last Name:</label>
-          <input type="text" name="lname" id="lname" required>
-          <label for="bposition">Business Position:</label>
-          <input type="text" name="bposition" id="bposition" minlength="7" pattern="*[A-Z][a-z]" >
-          <label for="email">Email:</label>
-          <input type="email" name="email" id="email" required placeholder="email@gmail.com" >
-          <label for="cellphone">Cell Phone:</label>
-          <input type="tel" name="cellphone" id="cellphone" required>
-          <label for="bname">Business Name:</label>
-          <input type="text" name="bname" id="bname" required>
-          <label for="membership">Membership Levels:</label>
-          <select name="memberships" id="typeofmemberships">
-            <option  value="nonprofitmember">Non-profit</option>
-            <option value="bronzemember">Bronze</option>
-            <option value="silvermember">Silver</option>
-            <option  value="goldmember">Gold</option>
-          </select>
-          <label for="bdescription">Business Description:</label>
-          <textarea name="bdescription" id="bdescription" cols="21" rows="5"></textarea>
-          <input type="hidden" name="datetime" id="datetime">
-          <input class="submitbtn" type="submit" value="Submit"/>
-        </form>      
-        <section class="memberships">
-          <div class="nonprofit">
-            <h3>Non-profit</h3>
-            <p>Free</p>
-            <ul>
-              <li>25% of discount on events</li>
-              <li>Participation in giveaways and raffles</li>
-              <li>Access to news and information from community leaders.</li>
-            </ul>
-          </div>
-          <div class="bronze">
-            <h3>Bronze</h3>
-            <p>$200</p>
-            <p>Per year</p>
-            <ul>
-              <li>All rewards from previous tiers</li>
-              <li>50% of discount on events</li>
-              <li>10% discount on advertising</li>
-              <li>Free workshops and training</li>
-            </ul>
-          </div>
-          <div class="silver">
-            <h3>Silver</h3>
-            <p>$500</p>
-            <p>Per year</p>
-            <ul>
-              <li>All rewards from previous tiers</li>
-              <li>75% of discount on events</li>
-              <li>Occasional advertising in the home page spotlights</li>
-              <li>Free dinners and lunchs on chamber associates restaurants</li>
-            </ul>
-          </div>
-          <div class="gold">
-            <h3>Gold</h3>
-            <p>$800</p>
-            <p>Per year</p>
-            <ul>
-              <li>All rewards from previous tiers</li>
-              <li>Free access to events</li>
-              <li>Permanent advertising in the the home page spotlights</li>
-              <li>Paid travel expenses on the chamber's annual trips</li>
-            </ul>
-          </div>
+          <form action="thankyou.html" method="get">
+            <label for="fname">First Name:</label>
+            <input type="text" name="fname" id="fname" required>
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lname" id="lname" required>
+            <label for="bposition">Business Position:</label>
+            <input type="text" name="bposition" id="bposition" minlength="7" pattern="*[A-Z][a-z]" >
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required placeholder="email@gmail.com" >
+            <label for="cellphone">Cell Phone:</label>
+            <input type="tel" name="cellphone" id="cellphone" required>
+            <label for="bname">Business Name:</label>
+            <input type="text" name="bname" id="bname" required>
+            <label for="memberships">Membership Levels:</label>
+            <select name="memberships" id="memberships">
+              <option  value="nonprofitmember">Non-profit</option>
+              <option value="bronzemember">Bronze</option>
+              <option value="silvermember">Silver</option>
+              <option  value="goldmember">Gold</option>
+            </select>
+            <label for="bdescription">Business Description:</label>
+            <textarea name="bdescription" id="bdescription" cols="21" rows="5"></textarea>
+            <input type="hidden" name="datetime" id="datetime">
+            <input class="submitbtn" type="submit" value="Submit">
+          </form>      
+          <section class="memberships">
+            <div class="nonprofit">
+              <h3>Non-profit</h3>
+              <p>Free</p>
+              <ul>
+                <li>25% of discount on events</li>
+                <li>Participation in giveaways and raffles</li>
+                <li>Access to news and information from community leaders.</li>
+              </ul>
+            </div>
+            <div class="bronze">
+              <h3>Bronze</h3>
+              <p>$200</p>
+              <p>Per year</p>
+              <ul>
+                <li>All rewards from previous tiers</li>
+                <li>50% of discount on events</li>
+                <li>10% discount on advertising</li>
+                <li>Free workshops and training</li>
+              </ul>
+            </div>
+            <div class="silver">
+              <h3>Silver</h3>
+              <p>$500</p>
+              <p>Per year</p>
+              <ul>
+                <li>All rewards from previous tiers</li>
+                <li>75% of discount on events</li>
+                <li>Occasional advertising in the home page spotlights</li>
+                <li>Free dinners and lunchs on chamber associates restaurants</li>
+              </ul>
+            </div>
+            <div class="gold">
+              <h3>Gold</h3>
+              <p>$800</p>
+              <p>Per year</p>
+              <ul>
+                <li>All rewards from previous tiers</li>
+                <li>Free access to events</li>
+                <li>Permanent advertising in the the home page spotlights</li>
+                <li>Paid travel expenses on the chamber's annual trips</li>
+              </ul>
+            </div>
+          </section>
         </div>
-      </section>
     </main>
   <footer>
     <img class="logo" src="images/logo.webp" alt="Website Logo">
