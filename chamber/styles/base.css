@@ -314,7 +314,8 @@ main.join form input {
 
 input:not(.submitbtn),
 #typeofmemberships,
-#bdescription
+#bdescription,
+#description
 {
   border: 2px solid black;
   background-image: linear-gradient(to right, aquamarine, rgb(104, 198, 193));
@@ -414,6 +415,10 @@ main.directory div.cards a {
 }
 
 /*End Directtory Page*/
+
+/*Contact Page*/
+
+/*End Contact Page*/
 
 /*|| FOOTER ||*/
 footer img {
