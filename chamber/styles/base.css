@@ -70,28 +70,15 @@ h3 {
 }
 
 /* Social Icons */
-.fa {
+.facebook,
+.linkedin {
   padding: 5px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-  margin: 5px;
+  width: 45px;
 }
 
-.fa:hover {
+.facebook:hover,
+.linkedin:hover {
   opacity: 0.8;
-}
-
-.fa-facebook {
-  background: #3b5998;
-  color: white;
-}
-
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
 }
 
 /* Navigation Bar */
