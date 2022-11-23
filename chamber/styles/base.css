@@ -408,9 +408,9 @@ main.directory div.cards h2 {
 main.directory div.cards h2,
 main.directory div.cards p,
 main.directory div.cards a {
-  margin: 0px;
-  padding: 5px;
+  margin: 0;
   width: 100%;
+  padding: 5px 0;
 }
 
 /*End Directtory Page*/
