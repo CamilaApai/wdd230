@@ -123,6 +123,7 @@
     }
   
     hr + p,
+    hr + p + p,
     hr {
       grid-column: 1/4;
     }
