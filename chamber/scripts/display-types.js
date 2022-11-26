@@ -39,9 +39,9 @@ function displaymembers(member) {
     let phonenumber = document.createElement('a');
     let membershiplevel = document.createElement('p');
     let websiteurl = document.createElement('a');
-
-
-    // Change the textContent property of the h2 element to contain the member's full name
+    let breakline = document.createElement('br');
+    
+    // Change the textContent property of the elements to contain the json information
     h2.textContent = `${member.name}`;
     address.textContent = `${member.address}`;
     phonenumber.innerHTML = `${member.phonenumber}`;
@@ -61,8 +61,8 @@ function displaymembers(member) {
     card.appendChild(membershiplevel);
     card.appendChild(address);
     card.appendChild(phonenumber);
+    card.appendChild(breakline);
     card.appendChild(websiteurl);
-  
   
     // Add/append the existing HTML div with the cards class with the section(card)
     cards.appendChild(card);

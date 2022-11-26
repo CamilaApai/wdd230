@@ -60,7 +60,8 @@ h1 {
   margin: 0px;
 }
 
-h2 {
+h2,
+legend {
   font-size: 18px;
   margin: 0px;
 }
@@ -109,12 +110,12 @@ nav ul li {
 
 nav ul li a {
   display: block;
-  color: white;
   font-weight: bold;
-  text-decoration: none;
   border-radius: 10px;
   padding: 0.5rem 1rem;
+  color: white;
   transition: color 0.9s ease-in-out, box-shadow 0.9s ease-in-out;
+  text-decoration: none;
 }
 
 nav ul li a:hover,
@@ -167,7 +168,8 @@ main:not(.demographics) {
 main section:not(.memberships),
 main.join,
 main.thankyou,
-h2:not(section.heading h2),
+main.contact,
+h2:not(section.heading h2, main.contact h2),
 section ~ p {
   text-align: center;
   border: 1px solid black;
@@ -179,6 +181,10 @@ main.demographics,
 main.join {
   padding: 10px;
   margin: 10px;
+}
+
+main a {
+  text-decoration: none;
 }
 
 /*Home Page*/
@@ -303,12 +309,15 @@ main.thankyou h2.welcome {
 }
 
 main.join form label:not(.membership),
-main.directory div.cards img + p{
+main.directory div.cards img + p,
+main.contact form {
   font-weight: bold;
 }
 
 main.join form label:not(.membership),
-main.join form input {
+main.join form input,
+main.contact form input,
+main.contact form label {
   padding: 10px 10px 10px 0px;
 }
 
@@ -326,7 +335,8 @@ form input.submitbtn {
 }
 
 section.memberships h3,
-section.memberships p {
+section.memberships p,
+main.contact form legend {
   text-align: center;
   margin: 5px;
 }
@@ -417,7 +427,32 @@ main.directory div.cards a {
 /*End Directtory Page*/
 
 /*Contact Page*/
+main.contact h2,
+main.contact form {
+  padding: 10px;
+  margin: 10px;
+}
 
+main.contact p {
+  text-align: left;
+}
+
+main.contact div.group {
+ margin-bottom: 16px ;
+ margin-top: 16px;
+}
+
+main.contact div.group p {
+  margin: 0;
+}
+
+main.contact form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  border: 1px solid black;
+  border-radius: 10px;
+}
 /*End Contact Page*/
 
 /*|| FOOTER ||*/

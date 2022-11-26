@@ -4,7 +4,8 @@
     font-size: 30px;
   }
 
-  h2:not(section.heading h2) {
+  h2:not(section.heading h2),
+  legend {
     font-size: 25px;
   }
 
@@ -43,7 +44,7 @@
   }
 
   /*|| MAIN Grid ||*/
-  main:not(.directory) {
+  main:not(.directory, .contact) {
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: repeat(3, 1fr);
   }
