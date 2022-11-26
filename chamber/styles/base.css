@@ -60,8 +60,7 @@ h1 {
   margin: 0px;
 }
 
-h2,
-legend {
+h2 {
   font-size: 18px;
   margin: 0px;
 }
@@ -336,7 +335,7 @@ form input.submitbtn {
 
 section.memberships h3,
 section.memberships p,
-main.contact form legend {
+main.contact form h2 {
   text-align: center;
   margin: 5px;
 }
