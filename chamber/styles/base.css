@@ -168,7 +168,7 @@ main section:not(.memberships),
 main.join,
 main.thankyou,
 main.contact,
-h2:not(section.heading h2, main.contact h2),
+h2:not(section.heading h2, main.contact h2, .spothlights h2),
 section ~ p {
   text-align: center;
   border: 1px solid black;
@@ -303,7 +303,8 @@ main.join:not(main.join h2) {
 }
 
 main.join h2.join,
-main.thankyou h2.welcome {
+main.thankyou h2.welcome,
+h2:not(.spothlights h2) {
   border: none;
 }
 

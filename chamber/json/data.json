@@ -28,7 +28,7 @@
       "name": "Buquebus",
       "address": "Rambla 25 de Agosto de 1825",
       "phonenumber": "(+598) 092 913 123",
-      "membershiplevel": "Bronze",
+      "membershiplevel": "Gold",
       "websiteurl": "https://www.buquebus.com.uy/",
       "image": "images/buquebus.jpg"
     },
@@ -36,7 +36,7 @@
       "name": "Farmashop",
       "address": "Av. Bolivia 1381",
       "phonenumber": "(+598) 2848 4848",
-      "membershiplevel": "Silver",
+      "membershiplevel": "Gold",
       "websiteurl": "https://tienda.farmashop.com.uy/?gclid=Cj0KCQiA99ybBhD9ARIsALvZavUtDvqbB8Gm6iet1a3hcok-ASt1LAD1L8gBbxRibAW0EI1a1V37gAgaArmQEALw_wcB",
       "image": "images/farmashop.jpg"
     },
@@ -52,7 +52,7 @@
       "name": "Ancel",
       "address": "Guatemala 1075",
       "phonenumber": "(+598) 2800 6611",
-      "membershiplevel": "Gold",
+      "membershiplevel": "Silver",
       "websiteurl": "https://www.antel.com.uy/",
       "image": "images/ancel.jpg"
     },

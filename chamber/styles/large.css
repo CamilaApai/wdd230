@@ -87,10 +87,18 @@
     grid-template-rows: repeat(3, 1fr);
   }
 
+  .spothlights section {
+    grid-column: 3;
+    grid-row: auto;
+  }
+  
+  
+/*
   section.spothlight3 {
     display: block;
     grid-row: 3;
   }
+*/
   /*End Home Page*/
 
   /*Discover Page*/

@@ -41,6 +41,12 @@
       flex-flow: row;
     }
   
+    .spothlights section {
+      grid-row: 2;
+      flex: 1;
+    }
+  
+    /*
     section.spothlight1 {
       grid-row: 1;
     }
@@ -49,7 +55,7 @@
       grid-row: 2;
       flex: 1;
     }
-  
+  */
     section.join {
       display: block;
       grid-column: 1/3;
