@@ -19,7 +19,7 @@ function displaymembers(member) {
     let phonenumber = document.createElement('a');
     let websiteurl = document.createElement('a');
     let breakline = document.createElement('br');
-
+    
     // Change the textContent property of the elements to contain the json information
     h3.textContent = `${member.name}`;
     address.textContent = `${member.address}`;
@@ -48,4 +48,3 @@ function displaymembers(member) {
 }
 
 let data = getMembers()
-

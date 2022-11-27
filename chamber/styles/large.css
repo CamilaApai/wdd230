@@ -88,7 +88,6 @@
   }
 
   .spothlights section {
-    grid-column: 3;
     grid-row: auto;
   }
   
