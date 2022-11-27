@@ -212,6 +212,8 @@ section.hero h2 {
 }
 
 button,
+section.hero a,
+section.join a,
 form input.submitbtn {
   padding: 5px;
   margin: 10px;
@@ -238,7 +240,7 @@ section.join a {
   text-decoration:none;
 }
 
-section.join a button {
+section.join a  {
   margin: auto;
   margin-bottom: 10px;
 }
