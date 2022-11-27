@@ -1,5 +1,5 @@
 //WIND CHILD CALCULATOR| Main - Weather Section
-const temperature = parseFloat(document.querySelector("#current-temp").innerText);
+const temperature = parseFloat(document.querySelector("#current-temp").innerHTML);
 const windSpeed = parseFloat(document.querySelector("#windspeed").innerText);
 
 if (temperature <= 50  && windSpeed > 3) {
