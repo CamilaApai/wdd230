@@ -248,6 +248,10 @@ section.news {
   padding: 10px;
 }
 
+section.weather img#weather-icon{
+  height: 150px;
+}
+
 section.spothlights {
   padding: 0px;
 }
