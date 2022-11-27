@@ -218,29 +218,38 @@ form input.submitbtn {
   padding: 5px;
   margin: 10px;
   border-radius: 10px;
-  /*background-color: rgba(240, 240, 240, 0.8);*/
   font-weight: bold;
   background-color: #007bb5;
+  color: black;
+}
+
+section.hero a,
+section.join a {
+  border: 1px solid black;
 }
 
 button:hover,
+section.hero a:hover,
+section.join a:hover,
 form input.submitbtn:hover {
   background-color: #3b5998;
   box-shadow: none;
 }
 
-section.hero button {
+section.hero a {
   line-height: 2em;
   position: absolute;
   bottom: 25px;
   right: 0px;
 }
 
-section.join a {
+section.join  {
   text-decoration:none;
+  padding: 10px;
+  margin: 5px;
 }
 
-section.join a  {
+section.join   {
   margin: auto;
   margin-bottom: 10px;
 }
