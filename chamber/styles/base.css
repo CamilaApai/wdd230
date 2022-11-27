@@ -444,8 +444,8 @@ main.directory div.cards a {
 /*Contact Page*/
 main.contact h2,
 main.contact form {
-  padding: 10px;
   margin: 10px;
+  padding: 10px;
 }
 
 main.contact p {
