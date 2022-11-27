@@ -22,7 +22,8 @@
       "phonenumber": "(+598) 2901 3773",
       "membershiplevel": "Gold",
       "websiteurl": "https://www.ancap.com.uy/",
-      "image": "images/ancap.jpg"
+      "image": "images/ancap.jpg",
+      "number": "1"
     },
     {
       "name": "Buquebus",
@@ -30,7 +31,9 @@
       "phonenumber": "(+598) 092 913 123",
       "membershiplevel": "Gold",
       "websiteurl": "https://www.buquebus.com.uy/",
-      "image": "images/buquebus.jpg"
+      "image": "images/buquebus.jpg",
+      "number": "2"
+      
     },
     {
       "name": "Farmashop",
@@ -38,7 +41,8 @@
       "phonenumber": "(+598) 2848 4848",
       "membershiplevel": "Gold",
       "websiteurl": "https://tienda.farmashop.com.uy/?gclid=Cj0KCQiA99ybBhD9ARIsALvZavUtDvqbB8Gm6iet1a3hcok-ASt1LAD1L8gBbxRibAW0EI1a1V37gAgaArmQEALw_wcB",
-      "image": "images/farmashop.jpg"
+      "image": "images/farmashop.jpg",
+      "number": "3"
     },
     {
       "name": "Alianza",
