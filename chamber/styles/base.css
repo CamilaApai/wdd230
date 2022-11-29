@@ -392,8 +392,6 @@ main.directory div.cards:not(.list) {
 }
 
 main.directory div.cards img {
-  width: 200px;
-  height: auto;
   padding: 0px;
   margin: 0px 20px;
 }
@@ -410,7 +408,6 @@ main.directory div.cards a {
   width: 100%;
   padding: 5px 0px;
 }
-
 /*End Directtory Page*/
 
 /*Contact Page*/
