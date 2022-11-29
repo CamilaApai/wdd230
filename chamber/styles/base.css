@@ -281,8 +281,6 @@ section > img:not(main.directory img) {
 }
 
 section.discoverimg img {
-  width: 400px;
-  height: auto;
   border-radius: 5px;
   border: 1px solid black;
   filter: blur(0em);
@@ -364,8 +362,6 @@ main.directory div.menu {
 }
 
 main.directory div.menu button img {
-  width: auto;
-  height: 30px;
   text-align: center;
 }
 
@@ -447,9 +443,6 @@ main.contact form {
 /*End Contact Page*/
 
 /*|| FOOTER ||*/
-footer img {
-  width: 100px;
-}
 footer p,
 footer a {
   margin: 10px;
