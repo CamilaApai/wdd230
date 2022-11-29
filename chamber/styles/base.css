@@ -129,20 +129,15 @@ nav ul.open {
   display: block;
 }
 
-#hamburgerBtn span:nth-child(1) {
+#hamburgerBtn span:nth-child(1),
+#hamburgerBtn.open span:nth-child(2)
+ {
   display: block;
 }
 
-#hamburgerBtn.open span:nth-child(1) {
-  display: none;
-}
-
+#hamburgerBtn.open span:nth-child(1),
 #hamburgerBtn span:nth-child(2) {
   display: none;
-}
-
-#hamburgerBtn.open span:nth-child(2) {
-  display: block;
 }
 
 /* Date */
@@ -268,7 +263,7 @@ section.spothlights {
 }
 
 section.join,
-section.spothlight3 {
+.spothlights section:nth-of-type(3) {
   display: none;
 }
 
@@ -414,7 +409,7 @@ main.directory .list section img {
   display: none;
 }
 
-main.directory div.cards:not(.list){
+main.directory div.cards:not(.list) {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }

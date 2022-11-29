@@ -44,3 +44,4 @@ if (( weekDay == 1) || ( weekDay == 2)) {
 }
 
 document.querySelector("#banner").style.fontFamily = "Ubuntu, Helvetica, sans-serif";
+document.querySelector("#banner").style.padding = "10px";
