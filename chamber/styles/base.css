@@ -17,7 +17,6 @@ footer {
   padding: 10px;
 }
 
-p,
 nav,
 main,
 footer {
@@ -55,14 +54,19 @@ header {
   text-align: left;
 }
 
+h1,
+h2,
+nav,
+nav ul li {
+  margin: 0px;
+}
+
 h1 {
   font-size: 22px;
-  margin: 0px;
 }
 
 h2 {
   font-size: 18px;
-  margin: 0px;
 }
 
 h3 {
@@ -82,8 +86,23 @@ h3 {
 }
 
 /* Navigation Bar */
-nav {
+nav,
+nav ul.open,
+nav ul li a,
+#hamburgerBtn span:nth-child(1),
+#hamburgerBtn.open span:nth-child(2),
+main.thankyou
+ {
   display: block;
+}
+
+nav ul,
+#hamburgerBtn.open span:nth-child(1),
+#hamburgerBtn span:nth-child(2),
+section.join,
+.spothlights section:nth-of-type(3),
+main.directory .list section img  {
+  display: none;
 }
 
 nav button,
@@ -96,19 +115,15 @@ nav button,
 }
 
 nav ul {
-  display: none;
-  margin: 0px;
   padding: 0px;
 }
 
 nav ul li {
   list-style-type: none;
-  margin: 0px;
   padding: 10px;
 }
 
 nav ul li a {
-  display: block;
   font-weight: bold;
   border-radius: 10px;
   padding: 0.5rem 1rem;
@@ -123,21 +138,6 @@ form input.submitbtn:hover {
   background-color: #3ebbc2;
   border-bottom: 1px solid rgba(0, 0, 0, 0.9);
   box-shadow: inset 100px 0 0 0 #3ebbc2;
-}
-
-nav ul.open {
-  display: block;
-}
-
-#hamburgerBtn span:nth-child(1),
-#hamburgerBtn.open span:nth-child(2)
- {
-  display: block;
-}
-
-#hamburgerBtn.open span:nth-child(1),
-#hamburgerBtn span:nth-child(2) {
-  display: none;
 }
 
 /* Date */
@@ -190,8 +190,6 @@ section.hero {
 section.hero img {
   width: 100%;
   object-fit: cover;
-  margin: 0px;
-  padding: 0px;
   height: 100%;
 }
 
@@ -254,17 +252,12 @@ section.news {
   padding: 10px;
 }
 
-section.weather img#weather-icon{
+section.weather img#weather-icon {
   height: 150px;
 }
 
 section.spothlights {
   padding: 0px;
-}
-
-section.join,
-.spothlights section:nth-of-type(3) {
-  display: none;
 }
 
 section.spothlight1,
@@ -360,11 +353,7 @@ section.memberships div {
 }
 /*End Join Page*/
 
-/*Thank you Page*/
-main.thankyou {
-  display: block;
-}
-
+/*Thank you Page*/ 
 main.thankyou p {
   margin: 5px;
 }
@@ -405,9 +394,6 @@ main.directory .grid section {
   align-items: center;
   }
   
-main.directory .list section img {
-  display: none;
-}
 
 main.directory div.cards:not(.list) {
   display: grid;

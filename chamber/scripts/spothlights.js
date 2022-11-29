@@ -6,7 +6,15 @@ async function getMembers() {
   const response = await fetch(requestURL);
   if(response.ok) {
     const data = await response.json();
-    data.members.forEach(member => {displaymembers(member)})
+    let spots = []
+    while (spots.length < 3) {
+      let randomnumber = Math.floor(Math.random * data.lenght);
+      if (data.randomnumber.member == "Silver" || data.randomnumber.member == "Gold") {
+        spots.push(data.randomnumber)
+        data.splice(randomnumber, 1)
+      }
+    }
+    spots.forEach(member => {displaymembers(member)})
   }
 } 
 
@@ -34,7 +42,6 @@ function displaymembers(member) {
     portrait.setAttribute('loading', 'lazy');
   
     // Add the section(spothlight) with the h3 element
-    if (member.membershiplevel == "Gold") {
     spothlight.appendChild(h3); 
     spothlight.appendChild(portrait);  
     spothlight.appendChild(address);
@@ -44,7 +51,7 @@ function displaymembers(member) {
   
     // Add the existing HTML div with the spothlights class with the section(spothlight)
     spothlights.appendChild(spothlight);
-    }
+    
 }
 
 let data = getMembers()
