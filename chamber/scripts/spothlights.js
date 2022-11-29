@@ -1,57 +1,52 @@
 //DISPLAY MEMBERS spothlights| MAIN
 const requestURL = 'json/data.json';
-const spothlights = document.querySelector('.spothlights');
+const spothlights = document.querySelectorAll(".spothlights section");
 
-async function getMembers() {
-  const response = await fetch(requestURL);
-  if(response.ok) {
-    const data = await response.json();
-    let spots = []
-    while (spots.length < 3) {
-      let randomnumber = Math.floor(Math.random * data.lenght);
-      if (data.randomnumber.member == "Silver" || data.randomnumber.member == "Gold") {
-        spots.push(data.randomnumber)
-        data.splice(randomnumber, 1)
-      }
-    }
-    spots.forEach(member => {displaymembers(member)})
-  }
-} 
+fetch(requestURL)
+    .then(function(response) {
+        return response.json();
+    })
+    .then(function(jsonObject) {
+        const organizations = jsonObject['members']
+        const filter = organizations.filter((members) => {
+            return members.membershiplevel == "Silver" || members.membershiplevel == "Gold";
+        });
+        
+spothlights.forEach((spotlight) => {
+    const randomnumber = Math.floor(Math.random() * filter.length);
+    const members = filter[randomnumber];
+    filter.splice(randomnumber, 1);
 
-function displaymembers(member) {
     // Create elements to add to the document
-    let spothlight = document.createElement('section');
-    let h3 = document.createElement('h3');
-    let portrait = document.createElement('img');
-    let address = document.createElement('p');
-    let phonenumber = document.createElement('a');
-    let websiteurl = document.createElement('a');
+    let name = document.createElement("h3");
+    let logo = document.createElement("img");
+    let hr = document.createElement('hr');
+    let address = document.createElement("p");
+    let phonenumber = document.createElement("a");
+    let websiteurl = document.createElement("a");
     let breakline = document.createElement('br');
-    
+  
     // Change the textContent property of the elements to contain the json information
-    h3.textContent = `${member.name}`;
-    address.textContent = `${member.address}`;
-    phonenumber.innerHTML = `${member.phonenumber}`;
-    phonenumber.href= `tel:${member.phonenumber}`;
+    name.textContent = `${members.name}`;
+    address.textContent = `${members.address}`;
+    phonenumber.innerHTML = `${members.phonenumber}`;
+    phonenumber.href= `tel:${members.phonenumber}`;
     websiteurl.textContent = `Website`;
-    websiteurl.href =  `${member.websiteurl}`;
+    websiteurl.href =  `${members.websiteurl}`;
 
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
-    portrait.setAttribute('src', member.image);
-    portrait.setAttribute('alt', `${member.name} logo`);
-    portrait.setAttribute('loading', 'lazy');
-  
-    // Add the section(spothlight) with the h3 element
-    spothlight.appendChild(h3); 
-    spothlight.appendChild(portrait);  
-    spothlight.appendChild(address);
-    spothlight.appendChild(phonenumber);
-    spothlight.appendChild(breakline);
-    spothlight.appendChild(websiteurl);
-  
-    // Add the existing HTML div with the spothlights class with the section(spothlight)
-    spothlights.appendChild(spothlight);
+    logo.setAttribute('src', members.image);
+    logo.setAttribute('alt',` ${members.name} logo`);
+    logo.setAttribute('loading', 'lazy');
     
-}
-
-let data = getMembers()
+    // Add the section(spothlight) with the elements
+    spotlight.appendChild(name);
+    spotlight.appendChild(logo);
+    spotlight.appendChild(hr);
+    spotlight.appendChild(address);
+    spotlight.appendChild(phonenumber);
+    spotlight.appendChild(breakline);
+    spotlight.appendChild(websiteurl);
+});
+});
+  
