@@ -250,10 +250,6 @@ section.news {
   padding: 10px;
 }
 
-section.weather img#weather-icon {
-  height: 150px;
-}
-
 section.spothlights {
   padding: 0px;
 }
@@ -273,7 +269,7 @@ section img[data-src] {
   filter: blur(0.2em);
 }
 
-section > img:not(main.directory img) {
+section > img:not(main.directory img, img#weather-icon) {
   width: auto;
   height: 200px;
   padding: 0px;

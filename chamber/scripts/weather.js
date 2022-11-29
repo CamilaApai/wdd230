@@ -40,4 +40,6 @@ function  displayResults(weatherData) {
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
     weatherDescription.textContent = desc;
+    weatherIcon.width = 150;
+    weatherIcon.height = 150;
   }
