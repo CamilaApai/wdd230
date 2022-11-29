@@ -33,7 +33,7 @@ function displaymembers(member) {
     portrait.setAttribute('alt', `${member.name} logo`);
     portrait.setAttribute('loading', 'lazy');
   
-    // Add/append the section(spothlight) with the h3 element
+    // Add the section(spothlight) with the h3 element
     if (member.membershiplevel == "Gold") {
     spothlight.appendChild(h3); 
     spothlight.appendChild(portrait);  
@@ -42,7 +42,7 @@ function displaymembers(member) {
     spothlight.appendChild(breakline);
     spothlight.appendChild(websiteurl);
   
-    // Add/append the existing HTML div with the spothlights class with the section(spothlight)
+    // Add the existing HTML div with the spothlights class with the section(spothlight)
     spothlights.appendChild(spothlight);
     }
 }
