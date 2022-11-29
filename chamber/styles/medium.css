@@ -13,7 +13,7 @@
     }
   
     /*|| MAIN Grid ||*/
-    main:not(.directory) {
+    main:not(.directory, .thankyou) {
       grid-template-columns: 2fr 1fr;
       grid-template-rows: repeat(5, 0fr);
     }
