@@ -14,15 +14,15 @@
       "phonenumber": "(+598) 2924 7171",
       "membershiplevel": "Bronze",
       "websiteurl": "https://www.conaprole.uy/",
-      "image": "images/conaprole.jpg"
+      "image": "images/conaprole.png"
     },
     {
-      "name": "Ancap",
-      "address": "Paysandú and Av. Libertador",
-      "phonenumber": "(+598) 2901 3773",
-      "membershiplevel": "Gold",
-      "websiteurl": "https://www.ancap.com.uy/",
-      "image": "images/ancap.jpg"
+      "name": "Alianza",
+      "address": "Paraguay 1217",
+      "phonenumber": "(+598) 2902 5160",
+      "membershiplevel": "Bronze",
+      "websiteurl": "https://www.alianza.edu.uy/es/",
+      "image": "images/alianza.jpg"
     },
     {
       "name": "Buquebus",
@@ -41,12 +41,20 @@
       "image": "images/farmashop.jpg"
     },
     {
-      "name": "Alianza",
-      "address": "Paraguay 1217",
-      "phonenumber": "(+598) 2902 5160",
-      "membershiplevel": "Bronze",
-      "websiteurl": "https://www.alianza.edu.uy/es/",
-      "image": "images/alianza.jpg"
+      "name": "Sonda",
+      "address": "Río Negro 1320",
+      "phonenumber": "(+598) 2908 3000",
+      "membershiplevel": "Silver",
+      "websiteurl": "https://www.sonda.com/",
+      "image": "images/sonda.jpg"
+    },
+    {
+      "name": "Ancap",
+      "address": "Paysandú and Av. Libertador",
+      "phonenumber": "(+598) 2901 3773",
+      "membershiplevel": "Gold",
+      "websiteurl": "https://www.ancap.com.uy/",
+      "image": "images/ancap.jpg"
     },
     {
       "name": "Ancel",
@@ -63,14 +71,6 @@
       "membershiplevel": "Bronze",
       "websiteurl": "https://www.aidauruguay.org.uy/",
       "image": "images/aida.jpg"
-    },
-    {
-      "name": "Sonda",
-      "address": "Río Negro 1320",
-      "phonenumber": "(+598) 2908 3000",
-      "membershiplevel": "Silver",
-      "websiteurl": "https://www.sonda.com/",
-      "image": "images/sonda.jpg"
     }  
   ]
 }

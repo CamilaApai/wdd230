@@ -282,8 +282,7 @@ section > img:not(main.directory img) {
   margin: 0px 20px;
 }
 
-section.right img,
-section.left img {
+section.discoverimg img {
   width: 400px;
   height: auto;
   border-radius: 5px;
@@ -311,16 +310,14 @@ h2:not(.spothlights h2) {
   border: none;
 }
 
-main.join form label:not(.membership),
+.form label:not(.membership),
 main.directory div.cards img + p,
-main.contact form {
+.form {
   font-weight: bold;
 }
 
-main.join form label:not(.membership),
-main.join form input,
-main.contact form input,
-main.contact form label {
+.form input,
+.form label:not(.membership) {
   padding: 10px 10px 10px 0px;
 }
 
