@@ -37,6 +37,8 @@ spothlights.forEach((spotlight) => {
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     logo.setAttribute('src', members.image);
     logo.setAttribute('alt',` ${members.name} logo`);
+    logo.width = 200;
+    logo.height = 200;
     logo.setAttribute('loading', 'lazy');
     
     // Add the section(spothlight) with the elements

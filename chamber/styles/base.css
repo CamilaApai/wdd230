@@ -269,7 +269,7 @@ section img[data-src] {
   filter: blur(0.2em);
 }
 
-section > img:not(main.directory img, img#weather-icon) {
+section > img:not(main.directory img, img#weather-icon, .spothlights) {
   width: auto;
   height: 200px;
   padding: 0px;
