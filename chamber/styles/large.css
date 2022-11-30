@@ -47,7 +47,7 @@
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: repeat(3, 1fr);
   }
-  
+
   /*Home Page*/
   section.event {
     grid-column: 1;
@@ -86,7 +86,7 @@
   .spothlights section {
     grid-row: auto;
   }
-  
+
   section.spothlight3,
   .spothlights section:nth-of-type(3) {
     display: block;

@@ -89,8 +89,7 @@ nav ul.open,
 nav ul li a,
 #hamburgerBtn span:nth-child(1),
 #hamburgerBtn.open span:nth-child(2),
-main.thankyou
- {
+main.thankyou {
   display: block;
 }
 
@@ -99,7 +98,7 @@ nav ul,
 #hamburgerBtn span:nth-child(2),
 section.join,
 .spothlights section:nth-of-type(3),
-main.directory .list section img  {
+main.directory .list section img {
   display: none;
 }
 
@@ -234,13 +233,13 @@ section.hero a {
   right: 0px;
 }
 
-section.join  {
-  text-decoration:none;
+section.join {
+  text-decoration: none;
   padding: 10px;
   margin: 5px;
 }
 
-section.join   {
+section.join {
   margin: auto;
   margin-bottom: 10px;
 }
@@ -316,8 +315,7 @@ main.directory div.cards img + p,
 input:not(.submitbtn),
 #typeofmemberships,
 #bdescription,
-#description
-{
+#description {
   border: 2px solid black;
   background-image: linear-gradient(to right, aquamarine, rgb(104, 198, 193));
 }
@@ -338,11 +336,11 @@ section.memberships div {
   border-radius: 10px;
   padding: 10px;
   margin: 10px;
-  background-color: #EDEFF0;
+  background-color: #edeff0;
 }
 /*End Join Page*/
 
-/*Thank you Page*/ 
+/*Thank you Page*/
 main.thankyou p {
   margin: 5px;
 }
@@ -350,9 +348,9 @@ main.thankyou p {
 
 /*Directtory Page*/
 main.directory div.menu {
-	border: 3px solid black;
-	background-color: #184271;
-	text-align: center;
+  border: 3px solid black;
+  background-color: #184271;
+  text-align: center;
   margin: 0.25rem;
   padding: 0.35rem;
 }
@@ -362,8 +360,8 @@ main.directory div.menu button img {
 }
 
 main.directory .list {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 main.directory .list section {
@@ -371,7 +369,7 @@ main.directory .list section {
   padding: 0.35rem;
   display: flex;
   align-items: center;
-  }
+}
 
 main.directory .grid section {
   margin: 0.25rem;
@@ -379,8 +377,7 @@ main.directory .grid section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  }
-  
+}
 
 main.directory div.cards:not(.list) {
   display: grid;
@@ -418,8 +415,8 @@ main.contact p {
 }
 
 main.contact div.group {
- margin-bottom: 16px ;
- margin-top: 16px;
+  margin-bottom: 16px;
+  margin-top: 16px;
 }
 
 main.contact div.group p {
@@ -470,5 +467,3 @@ hr {
   background-color: rgba(0, 0, 40, 0.3);
   height: 1px;
 }
-
-

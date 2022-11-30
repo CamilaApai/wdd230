@@ -22,16 +22,18 @@
   <header>
     <div id="banner"></div>
     <div class="headerfirst">
-       <a href="index.html"><img class="logo" src="images/logo.webp" alt="Website Logo" width="50" height="50"></a>
+      <a href="index.html"><img class="logo" src="images/logo.webp" alt="Website Logo" width="50" height="50"></a>
       <section class="heading">
         <h1>Montevideo</h1>
         <h2>Chamber of Commerce</h2>
       </section>
       <div class="social">
-          <a href="https://www.facebook.com/"><img class="facebook" src="images/facebook.png" alt="Facebook logo" width="45" height="45"></a>
-          <a href="https://www.linkedin.com/in/camila-apai/"><img class="linkedin" src="images/linkedin.png" alt="Linkedin logo" width="45" height="45"></a>
+        <a href="https://www.facebook.com/"><img class="facebook" src="images/facebook.png" alt="Facebook logo"
+            width="45" height="45"></a>
+        <a href="https://www.linkedin.com/in/camila-apai/"><img class="linkedin" src="images/linkedin.png"
+            alt="Linkedin logo" width="45" height="45"></a>
       </div>
-      <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button> 
+      <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
     </div>
     <div id="date"></div>
     <nav>
@@ -44,80 +46,80 @@
       </ul>
     </nav>
   </header>
-    <main class="join">
-        <h2 class="join">Fill out the form and apply to join us!</h2>
-        <div class="joincontent">
-          <form action="thankyou.html" method="get" class="form">
-            <label for="fname">First Name:</label>
-            <input type="text" name="fname" id="fname" required>
-            <label for="lname">Last Name:</label>
-            <input type="text" name="lname" id="lname" required>
-            <label for="bposition">Business Position:</label>
-            <input type="text" name="bposition" id="bposition" minlength="7" pattern="*[A-Z][a-z]" >
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" required placeholder="email@gmail.com" >
-            <label for="cellphone">Cell Phone:</label>
-            <input type="tel" name="cellphone" id="cellphone" required>
-            <label for="bname">Business Name:</label>
-            <input type="text" name="bname" id="bname" required>
-            <label for="memberships">Membership Levels:</label>
-            <select name="memberships" id="memberships">
-              <option  value="nonprofitmember">Non-profit</option>
-              <option value="bronzemember">Bronze</option>
-              <option value="silvermember">Silver</option>
-              <option  value="goldmember">Gold</option>
-            </select>
-            <label for="bdescription">Business Description:</label>
-            <textarea name="bdescription" id="bdescription" cols="21" rows="5"></textarea>
-            <input type="hidden" name="datetime" id="datetime">
-            <input class="submitbtn" type="submit" value="Submit">
-          </form>      
-          <section class="memberships">
-            <div class="nonprofit">
-              <h3>Non-profit</h3>
-              <p>Free</p>
-              <ul>
-                <li>25% of discount on events</li>
-                <li>Participation in giveaways and raffles</li>
-                <li>Access to news and information from community leaders.</li>
-              </ul>
-            </div>
-            <div class="bronze">
-              <h3>Bronze</h3>
-              <p>$200</p>
-              <p>Per year</p>
-              <ul>
-                <li>All rewards from previous tiers</li>
-                <li>50% of discount on events</li>
-                <li>10% discount on advertising</li>
-                <li>Free workshops and training</li>
-              </ul>
-            </div>
-            <div class="silver">
-              <h3>Silver</h3>
-              <p>$500</p>
-              <p>Per year</p>
-              <ul>
-                <li>All rewards from previous tiers</li>
-                <li>75% of discount on events</li>
-                <li>Occasional advertising in the home page spotlights</li>
-                <li>Free dinners and lunchs on chamber associates restaurants</li>
-              </ul>
-            </div>
-            <div class="gold">
-              <h3>Gold</h3>
-              <p>$800</p>
-              <p>Per year</p>
-              <ul>
-                <li>All rewards from previous tiers</li>
-                <li>Free access to events</li>
-                <li>Permanent advertising in the the home page spotlights</li>
-                <li>Paid travel expenses on the chamber's annual trips</li>
-              </ul>
-            </div>
-          </section>
+  <main class="join">
+    <h2 class="join">Fill out the form and apply to join us!</h2>
+    <div class="joincontent">
+      <form action="thankyou.html" method="get" class="form">
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" id="fname" required>
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" id="lname" required>
+        <label for="bposition">Business Position:</label>
+        <input type="text" name="bposition" id="bposition" minlength="7" pattern="*[A-Z][a-z]">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required placeholder="email@gmail.com">
+        <label for="cellphone">Cell Phone:</label>
+        <input type="tel" name="cellphone" id="cellphone" required>
+        <label for="bname">Business Name:</label>
+        <input type="text" name="bname" id="bname" required>
+        <label for="memberships">Membership Levels:</label>
+        <select name="memberships" id="memberships">
+          <option value="nonprofitmember">Non-profit</option>
+          <option value="bronzemember">Bronze</option>
+          <option value="silvermember">Silver</option>
+          <option value="goldmember">Gold</option>
+        </select>
+        <label for="bdescription">Business Description:</label>
+        <textarea name="bdescription" id="bdescription" cols="21" rows="5"></textarea>
+        <input type="hidden" name="datetime" id="datetime">
+        <input class="submitbtn" type="submit" value="Submit">
+      </form>
+      <section class="memberships">
+        <div class="nonprofit">
+          <h3>Non-profit</h3>
+          <p>Free</p>
+          <ul>
+            <li>25% of discount on events</li>
+            <li>Participation in giveaways and raffles</li>
+            <li>Access to news and information from community leaders.</li>
+          </ul>
         </div>
-    </main>
+        <div class="bronze">
+          <h3>Bronze</h3>
+          <p>$200</p>
+          <p>Per year</p>
+          <ul>
+            <li>All rewards from previous tiers</li>
+            <li>50% of discount on events</li>
+            <li>10% discount on advertising</li>
+            <li>Free workshops and training</li>
+          </ul>
+        </div>
+        <div class="silver">
+          <h3>Silver</h3>
+          <p>$500</p>
+          <p>Per year</p>
+          <ul>
+            <li>All rewards from previous tiers</li>
+            <li>75% of discount on events</li>
+            <li>Occasional advertising in the home page spotlights</li>
+            <li>Free dinners and lunchs on chamber associates restaurants</li>
+          </ul>
+        </div>
+        <div class="gold">
+          <h3>Gold</h3>
+          <p>$800</p>
+          <p>Per year</p>
+          <ul>
+            <li>All rewards from previous tiers</li>
+            <li>Free access to events</li>
+            <li>Permanent advertising in the the home page spotlights</li>
+            <li>Paid travel expenses on the chamber's annual trips</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </main>
   <footer>
     <img class="logo" src="images/logo.webp" alt="Website Logo" width="100" height="100">
     <div class="locationinfo">
@@ -128,13 +130,16 @@
     <div class="contactinfo">
       <p><a href="mailto:info@montevideochamber.com"> Email: info@montevideochamber.com</a></p>
       <p><a href="tel:53820988750"> Phone: +(538) 2098 8750</a></p>
-      <a href="https://www.google.com/maps/place/25+de+Mayo+575,+11000+Montevideo,+Departamento+de+Montevideo/@-34.9053527,-56.2054329,19z/data=!3m1!4b1!4m13!1m7!3m6!1s0x959f7f81386face9:0x1f573a9cbda191d9!2sCiudad+Vieja,+11000+Montevideo,+Montevideo+Department!3b1!8m2!3d-34.9080259!4d-56.2063312!3m4!1s0x959f7f80b1c6e6d1:0x746b4d9b3a5030d3!8m2!3d-34.9053538!4d-56.2043117">📍Location Map</a>
+      <a
+        href="https://www.google.com/maps/place/25+de+Mayo+575,+11000+Montevideo,+Departamento+de+Montevideo/@-34.9053527,-56.2054329,19z/data=!3m1!4b1!4m13!1m7!3m6!1s0x959f7f81386face9:0x1f573a9cbda191d9!2sCiudad+Vieja,+11000+Montevideo,+Montevideo+Department!3b1!8m2!3d-34.9080259!4d-56.2063312!3m4!1s0x959f7f80b1c6e6d1:0x746b4d9b3a5030d3!8m2!3d-34.9053538!4d-56.2043117">📍Location
+        Map</a>
     </div>
     <hr>
-    <p>&copy;<span id="currentyear"></span> Montevideo Chamber | Camila Apai | WDD 230 Project | Last Modification: <span id="lastModified"></span></p>
-</footer>
+    <p>&copy;<span id="currentyear"></span> Montevideo Chamber | Camila Apai | WDD 230 Project | Last Modification:
+      <span id="lastModified"></span></p>
+  </footer>
   <script src="scripts/dates.js"></script>
   <script src="scripts/nav-button.js"></script>
 </body>
-</html>
 
+</html>

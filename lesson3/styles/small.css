@@ -80,7 +80,7 @@ nav a {
 
 nav a:hover {
   display: block;
-  background-color: #fe8f28;
+  background-color: #87CEEB;
 }
 
 h2 + img {
@@ -98,30 +98,28 @@ img {
 }
 
 .secondary {
-  background-color: #3EBBC2;
+  background-color: #87CEEB;
 }
 
 .accent1 {
-  background-color: #fe8f28;
+  background-color: #3EBBC2;
 }
 .accent2 {
-  background-color: #ffffff;
+  background-color: #3B5998;
 }
 
 .sample1,
+.sample2,
+.sample3,
 .sample7 {
   color: #ffffff;
   background-color: #184271;
 }
-.sample2 {
+ 
+.sample4,
+.sample5,
+.sample6 {
   background-color: #3EBBC2;
   color: #000;
 }
 
-.sample3,
-.sample4,
-.sample5,
-.sample6 {
-  background-color: #ffffff;
-  color: #000;
-}
