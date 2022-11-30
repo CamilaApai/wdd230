@@ -44,7 +44,7 @@ header {
   align-items: center;
 }
 
-.heading{
+.heading {
   display: flex;
   flex-direction: column;
   font-family: "Ubuntu", Helvetica, sans-serif;
