@@ -44,7 +44,7 @@ header {
   align-items: center;
 }
 
-.heading {
+.heading{
   display: flex;
   flex-direction: column;
   font-family: "Ubuntu", Helvetica, sans-serif;
@@ -96,7 +96,6 @@ main.thankyou {
 nav ul,
 #hamburgerBtn.open span:nth-child(1),
 #hamburgerBtn span:nth-child(2),
-section.join,
 .spothlights section:nth-of-type(3),
 main.directory .list section img {
   display: none;
@@ -160,7 +159,7 @@ main section:not(.memberships),
 main.join,
 main.thankyou,
 main.contact,
-h2:not(section.heading h2, main.contact h2, .spothlights h2),
+h2:not(.locationinfo h2, section.heading h2, main.contact h2, .spothlights h2),
 section ~ p {
   text-align: center;
   border: 1px solid black;
@@ -239,10 +238,6 @@ section.join {
   margin: 5px;
 }
 
-section.join {
-  margin: auto;
-  margin-bottom: 10px;
-}
 
 section.event,
 section.news {
@@ -447,7 +442,7 @@ footer a:hover {
   text-decoration: underline;
 }
 
-.locationinfo h1 {
+.locationinfo h2 {
   font-size: 20px;
   font-family: "Ubuntu", Helvetica, sans-serif;
 }

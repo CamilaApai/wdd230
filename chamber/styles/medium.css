@@ -4,7 +4,7 @@
     font-size: 25px;
   }
 
-  h2:not(section.heading h2) {
+  h2:not(.locationinfo h2, section.heading h2) {
     font-size: 20px;
   }
 
@@ -54,11 +54,6 @@
 
   section.join button {
     display: block;
-  }
-
-  section.event {
-    grid-column: 1;
-    grid-row: 5;
   }
 
   section.weather {
@@ -112,9 +107,10 @@
     text-align: left;
   }
 
-  .locationinfo h1 {
+  .locationinfo h2 {
     font-size: 22px;
   }
+
   .contactinfo {
     grid-column: 3;
     text-align: right;
