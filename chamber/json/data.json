@@ -6,7 +6,7 @@
       "phonenumber": "(+598) 2628 7322",
       "membershiplevel": "Silver",
       "websiteurl": "https://www.starbucks.com.uy/",
-      "image": "images/starbucks.png"
+      "image": "/chamber/images/starbucks.webp"
     },
     {
       "name": "Conaprole",
@@ -14,7 +14,7 @@
       "phonenumber": "(+598) 2924 7171",
       "membershiplevel": "Bronze",
       "websiteurl": "https://www.conaprole.uy/",
-      "image": "images/conaprole.png"
+      "image": "images/conaprole.webp"
     },
     {
       "name": "Alianza",
@@ -22,7 +22,7 @@
       "phonenumber": "(+598) 2902 5160",
       "membershiplevel": "Bronze",
       "websiteurl": "https://www.alianza.edu.uy/es/",
-      "image": "images/alianza.jpg"
+      "image": "images/alianza.webp"
     },
     {
       "name": "Buquebus",
@@ -30,7 +30,7 @@
       "phonenumber": "(+598) 092 913 123",
       "membershiplevel": "Gold",
       "websiteurl": "https://www.buquebus.com.uy/",
-      "image": "images/buquebus.jpg"
+      "image": "images/buquebus.webp"
     },
     {
       "name": "Farmashop",
@@ -38,7 +38,7 @@
       "phonenumber": "(+598) 2848 4848",
       "membershiplevel": "Gold",
       "websiteurl": "https://tienda.farmashop.com.uy/?gclid=Cj0KCQiA99ybBhD9ARIsALvZavUtDvqbB8Gm6iet1a3hcok-ASt1LAD1L8gBbxRibAW0EI1a1V37gAgaArmQEALw_wcB",
-      "image": "images/farmashop.jpg"
+      "image": "images/farmashop.webp"
     },
     {
       "name": "Sonda",
@@ -46,7 +46,7 @@
       "phonenumber": "(+598) 2908 3000",
       "membershiplevel": "Silver",
       "websiteurl": "https://www.sonda.com/",
-      "image": "images/sonda.jpg"
+      "image": "images/sonda.webp"
     },
     {
       "name": "Ancap",
@@ -54,7 +54,7 @@
       "phonenumber": "(+598) 2901 3773",
       "membershiplevel": "Gold",
       "websiteurl": "https://www.ancap.com.uy/",
-      "image": "images/ancap.jpg"
+      "image": "images/ancap.webp"
     },
     {
       "name": "Ancel",
@@ -62,7 +62,7 @@
       "phonenumber": "(+598) 2800 6611",
       "membershiplevel": "Silver",
       "websiteurl": "https://www.antel.com.uy/",
-      "image": "images/ancel.jpg"
+      "image": "images/ancel.webp"
     },
     {
       "name": "Aida",
@@ -70,7 +70,7 @@
       "phonenumber": "(+598) 2900 1902",
       "membershiplevel": "Bronze",
       "websiteurl": "https://www.aidauruguay.org.uy/",
-      "image": "images/aida.jpg"
+      "image": "images/aida.webp"
     }  
   ]
 }
