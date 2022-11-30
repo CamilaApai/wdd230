@@ -3,10 +3,10 @@
 const current_date = new Date();
 
 //Use querySelector to access the HTML element.
-const dateUK = document.querySelector("#date"); 
+const dateUK = document.querySelector("#date");
 
 const fulldateUK = new Intl.DateTimeFormat("en-UK", {
-	dateStyle: "full"
+  dateStyle: "full",
 }).format(current_date);
 
 dateUK.innerHTML = `<em>${fulldateUK}</em>`;
@@ -39,9 +39,11 @@ document.querySelector("#lastModified").textContent = dateformat;
 //BANNER | Top of page
 const weekDay = current_date.getDay();
 
-if (( weekDay == 1) || ( weekDay == 2)) {
-  banner.innerText = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
+if (weekDay == 1 || weekDay == 2) {
+  banner.innerText =
+    "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
 }
 
-document.querySelector("#banner").style.fontFamily = "Ubuntu, Helvetica, sans-serif";
+document.querySelector("#banner").style.fontFamily =
+  "Ubuntu, Helvetica, sans-serif";
 document.querySelector("#banner").style.padding = "10px";

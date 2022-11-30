@@ -9,15 +9,15 @@ const apiURL = 'https://api.openweathermap.org/data/2.5/weather?q=Montevideo&uni
 
 //Use fetch() to request the given weather api url
 async function apiFetch() {
-try {
-    const response = await fetch(apiURL);
-    if (response.ok) {
-    const data = await response.json();
-    console.log(data); // this is for testing the call
-    displayResults(data);
-    } else {
-       console.log(`Response not OK ${await response.text()}`);
-    }
+    try {
+        const response = await fetch(apiURL);
+        if (response.ok) {
+            const data = await response.json();
+            console.log(data); // this is for testing the call
+            displayResults(data);
+        } else {
+            console.log(`Response not OK ${await response.text()}`);
+        }
     } catch (error) {
         console.log(`Error: ${error.message}`);
     }
@@ -30,16 +30,16 @@ function capitalize(string) {
 }
 
 // Display the results
-function  displayResults(weatherData) {
+function displayResults(weatherData) {
     currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}°F</strong>`;
     windspeed.textContent = `${weatherData.wind.speed}mph`;
-    
+
     const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
     const desc = weatherData.weather[0].description;
-    
+
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
     weatherDescription.textContent = desc;
     weatherIcon.width = 150;
     weatherIcon.height = 150;
-  }
+}
