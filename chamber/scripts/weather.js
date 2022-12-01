@@ -23,11 +23,6 @@ async function apiFetch() {
 }
 apiFetch();
 
-// Capitalize the content
-function capitalize(string) {
-    return `${string.charAt(0).toUpperCase()} ${string.slice(1)}`;
-}
-
 // Display the results
 function displayResults(weatherData) {
     currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}°F</strong>`;
