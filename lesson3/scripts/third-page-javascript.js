@@ -1,10 +1,8 @@
 //Get current date
 let date = new Date();
-//console.log(date)
 
 //Get current year
 let currentyear = date.getFullYear();
-//console.log(year)
 
 //Use querySelector to access the HTML element.
 document.querySelector("#currentyear").textContent = currentyear;
