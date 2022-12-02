@@ -364,6 +364,11 @@ main.directory .list section {
   align-items: center;
 }
 
+main.directory .list section img {
+  width: 70px;
+  height: auto;
+}
+
 main.directory .grid section {
   margin: 0.25rem;
   padding: 0.35rem;
