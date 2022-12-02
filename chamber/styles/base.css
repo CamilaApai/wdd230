@@ -156,7 +156,8 @@ main:not(.demographics) {
 }
 
 main section:not(.memberships),
-main div,
+main div.spothlights,
+main .spothlights div,
 main.join,
 main.thankyou,
 main.contact,
