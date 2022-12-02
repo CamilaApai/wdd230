@@ -28,7 +28,7 @@ function displayResults(weatherData) {
     currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}°F</strong>`;
     windspeed.textContent = `${weatherData.wind.speed}mph`;
 
-    const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
+    const iconsrc = `https://openweathermap.org/img/wn/${weatherData.weather[0].icon}@2x.png`;
     const desc = weatherData.weather[0].description;
 
     weatherIcon.setAttribute('src', iconsrc);
