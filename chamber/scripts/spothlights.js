@@ -1,6 +1,6 @@
 //DISPLAY MEMBERS spothlights| MAIN
 const requestURL = "json/data.json";
-const spothlights = document.querySelectorAll(".spothlights section");
+const spothlights = document.querySelectorAll(".spothlights div");
 
 fetch(requestURL)
   .then(function (response) {

@@ -41,7 +41,7 @@
     flex-flow: row;
   }
 
-  .spothlights section {
+  .spothlights div {
     grid-row: 2;
     flex: 1;
   }

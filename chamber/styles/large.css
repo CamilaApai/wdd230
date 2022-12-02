@@ -83,12 +83,11 @@
     grid-template-rows: repeat(3, 1fr);
   }
 
-  .spothlights section {
+  .spothlights div {
     grid-row: auto;
   }
 
-  section.spothlight3,
-  .spothlights section:nth-of-type(3) {
+  .spothlights div:nth-of-type(3) {
     display: block;
     grid-row: 3;
   }

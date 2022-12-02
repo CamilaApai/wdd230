@@ -96,7 +96,7 @@ main.thankyou {
 nav ul,
 #hamburgerBtn.open span:nth-child(1),
 #hamburgerBtn span:nth-child(2),
-.spothlights section:nth-of-type(3),
+.spothlights div:nth-of-type(3),
 main.directory .list section img {
   display: none;
 }
@@ -156,6 +156,7 @@ main:not(.demographics) {
 }
 
 main section:not(.memberships),
+main div,
 main.join,
 main.thankyou,
 main.contact,
@@ -244,14 +245,10 @@ section.news {
   padding: 10px;
 }
 
-section.spothlights {
+div.spothlights {
   padding: 0px;
 }
 
-section.spothlight1,
-section.spothlight2 {
-  grid-area: auto;
-}
 /*End Home Page*/
 
 /*Discover Page*/
@@ -263,7 +260,7 @@ section img[data-src] {
   filter: blur(0.2em);
 }
 
-section > img:not(main.directory img, img#weather-icon, .spothlights) {
+section > img:not(main.directory img, img#weather-icon) {
   width: auto;
   height: 200px;
   padding: 0px;
